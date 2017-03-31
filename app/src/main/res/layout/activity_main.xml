@@ -1,47 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:background="@drawable/gradient_dark"
     tools:context="com.maxmal.www.prepfordialysistechnician.MainActivity">
 
-    <TextView
-       style="@style/header"
-        android:textAlignment="center"
-        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="@dimen/firstFrame"
-        android:background="@drawable/gradient_dark"
         >
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="3"
+        android:layout_weight="1"
         android:orientation="vertical"
         android:padding="@dimen/secondtFrame"
+        android:layout_marginBottom="@dimen/firstFrame"
         >
 
         <Button
+            android:id="@+id/learn"
             android:layout_marginTop="@dimen/firstFrame"
             style="@style/welcomButtons"
             android:text="Let's Learn"
+            android:drawableLeft="@drawable/learn"
           />
 
         <Button
+            android:id="@+id/test"
             style="@style/welcomButtons"
-            android:text="Practice Test"/>
+            android:text="Practice Test"
+            android:drawableLeft="@drawable/test"
+           />
 
         <Button
+            android:id="@+id/pct"
             style="@style/welcomButtons"
-            android:text="Patient Care"/>
+            android:text="Patient Care"
+            android:drawableLeft="@drawable/pct"
+            />
 
 
     </LinearLayout>
@@ -58,3 +69,4 @@
     </LinearLayout>
 
 </LinearLayout>
+</ScrollView>

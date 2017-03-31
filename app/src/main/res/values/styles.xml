@@ -1,8 +1,12 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Customize your theme here. -->
+        <item name="colorPrimary">#e74c3c</item>
+        <item name="colorPrimaryDark">#c0392b</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorButtonNormal">#FF9800</item>
     </style>
 
 
@@ -10,7 +14,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:text">@string/app_name</item>
-        <item name="android:padding">20dp</item>
+        <item name="android:padding">@dimen/secondtFrame</item>
         <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
         <item name="android:background">@color/colorPrimary</item>
         <item name="android:textStyle">bold</item>
@@ -23,6 +27,7 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">26sp</item>
+        <item name="android:textColor">@android:color/white</item>
     </style>
 
     <style name="copywriteText">

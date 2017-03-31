@@ -1,4 +1,7 @@
 <resources>
+    <string name="learn">Let\'s Learn Dialysis</string>
+    <string name="test">Test PREP</string>
+    <string name="pct">PCT Daily Task</string>
     <string name="app_name">PREP for Dialysis Technician</string>
     <string name="copywrite">\u00A9 2017 MaxLearnStudio</string>
 </resources>
