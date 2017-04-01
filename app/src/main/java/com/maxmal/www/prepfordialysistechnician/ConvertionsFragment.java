@@ -21,6 +21,7 @@ public class ConvertionsFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+       // ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.category_conversions);
         View rootView = inflater.inflate(R.layout.words_list,container,false);
         return rootView;
     }

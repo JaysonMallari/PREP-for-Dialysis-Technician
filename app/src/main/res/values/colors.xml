@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">@drawable/gradient</color>
-    <color name="colorPrimaryDark">@drawable/gradient_dark</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryDark">#2980b9</color>
+    <color name="colorAccent">#3498db</color>
 </resources>

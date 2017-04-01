@@ -37,7 +37,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
 
     @Override
     public CharSequence getPageTitle(int position) {
-        if (position == 0){
+       /* if (position == 0){
            return mContext.getString(R.string.category_acronyms);
         }else if (position == 1){
             return mContext.getString(R.string.category_conversions);
@@ -45,6 +45,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
             return mContext.getString(R.string.category_organiztions);
         }else {
             return mContext.getString(R.string.category_vocabulary);
-        }
+        }*/
+       return null;
     }
 }

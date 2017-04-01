@@ -6,6 +6,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class LearnActivity extends AppCompatActivity {
+    //Here created a string array for store one or more titles
+    private int[] tabsTitles =
+            {R.string.category_acronyms,
+            R.string.category_conversions,
+            R.string.category_organiztions,
+            R.string.category_vocabulary};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,6 +37,27 @@ public class LearnActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
+        tabLayout.getTabAt(0).setIcon(R.drawable.acronyms);
+        tabLayout.getTabAt(1).setIcon(R.drawable.conversion);
+        tabLayout.getTabAt(2).setIcon(R.drawable.organization);
+        tabLayout.getTabAt(3).setIcon(R.drawable.vocabulary);
+
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                setTitle(tabsTitles[position]);
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+
+            }
+        });
 
     }
 }

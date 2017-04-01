@@ -21,6 +21,7 @@ public class OrganizationFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+       // ((AppCompatActivity) getActivity()).getSupportActionBar().setTitle(R.string.category_organiztions);
        View rootView = inflater.inflate(R.layout.words_list,container, false);
         return rootView;
     }
