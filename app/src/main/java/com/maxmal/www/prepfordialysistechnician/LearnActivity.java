@@ -13,6 +13,16 @@ public class LearnActivity extends AppCompatActivity {
             R.string.category_organiztions,
             R.string.category_vocabulary};
 
+    private  int[] tabsIcons =
+            {
+                    R.drawable.acronyms,
+                    R.drawable.conversion,
+                    R.drawable.organization,
+                    R.drawable.vocabulary
+            };
+
+    private TabLayout tabLayout;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -28,7 +38,8 @@ public class LearnActivity extends AppCompatActivity {
         viewPager.setAdapter(categoryAdapter);
 
         // find the tablout to w/c will diaply the tab label for each fragment
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab);
+       tabLayout = (TabLayout) findViewById(R.id.tab);
+
 
         // Connect the tab layout with the view pager. This will
         //   1. Update the tab layout when the view pager is swiped
@@ -37,10 +48,15 @@ public class LearnActivity extends AppCompatActivity {
         //      by calling onPageTitle()
         tabLayout.setupWithViewPager(viewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.acronyms);
-        tabLayout.getTabAt(1).setIcon(R.drawable.conversion);
-        tabLayout.getTabAt(2).setIcon(R.drawable.organization);
-        tabLayout.getTabAt(3).setIcon(R.drawable.vocabulary);
+        // Display the Icons on the Tab layout
+        for ( int x = 0; x<tabsIcons.length; x++){
+            tabLayout.getTabAt(x).setIcon(tabsIcons[x]);
+        }
+
+        //on first open of app, the icons will be set to alpha of 50% for all other icons besides the current selected icon
+        for ( int x = 1; x<tabsIcons.length; x++){
+            tabLayout.getTabAt(x).getIcon().setAlpha(128);
+        }
 
         viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
@@ -51,6 +67,33 @@ public class LearnActivity extends AppCompatActivity {
             @Override
             public void onPageSelected(int position) {
                 setTitle(tabsTitles[position]);
+
+                switch (position) {
+                    case 0:
+                        tabLayout.getTabAt(0).getIcon().setAlpha(255);
+                        tabLayout.getTabAt(1).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(2).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(3).getIcon().setAlpha(128);
+                        break;
+                    case 1:
+                        tabLayout.getTabAt(0).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(1).getIcon().setAlpha(255);
+                        tabLayout.getTabAt(2).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(3).getIcon().setAlpha(128);
+                        break;
+                    case 2:
+                        tabLayout.getTabAt(0).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(1).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(2).getIcon().setAlpha(255);
+                        tabLayout.getTabAt(3).getIcon().setAlpha(128);
+                        break;
+                    case 3:
+                        tabLayout.getTabAt(0).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(1).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(2).getIcon().setAlpha(128);
+                        tabLayout.getTabAt(3).getIcon().setAlpha(255);
+                        break;
+                }
             }
 
             @Override

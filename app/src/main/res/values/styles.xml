@@ -2,23 +2,26 @@
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
-        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="actionBarStyle">@style/DialysisAppBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- App bar style -->
+    <style name="DialysisAppBarStyle" parent="style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
     </style>
 
 
-    <style name="header">
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:text">@string/app_name</item>
-        <item name="android:padding">@dimen/secondtFrame</item>
-        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
-        <item name="android:background">@color/colorPrimary</item>
-        <item name="android:textStyle">bold</item>
-    </style>
 
     <style name="welcomButtons">
         <item name="android:layout_height">wrap_content</item>
