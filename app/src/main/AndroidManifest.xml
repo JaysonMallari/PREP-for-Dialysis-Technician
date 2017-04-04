@@ -20,12 +20,10 @@
             android:name=".LearnActivity"
             android:label="@string/learn"
             android:parentActivityName=".MainActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
         </activity>
-
         <activity
             android:name=".TestActivity"
             android:label="@string/test"
@@ -34,16 +32,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
         </activity>
-
         <activity
             android:name=".PctActivity"
             android:label="@string/pct"
             android:parentActivityName=".MainActivity">
-
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
         </activity>
+        <activity android:name=".DisplayDescriptionActivity"></activity>
     </application>
 
 </manifest>

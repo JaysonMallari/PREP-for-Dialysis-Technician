@@ -1,12 +1,16 @@
 package com.maxmal.www.prepfordialysistechnician;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -62,6 +66,9 @@ public class AcronymsFragment extends Fragment {
             ));
 
 
+
+
+
     public AcronymsFragment() {
         // Required empty public constructor
     }
@@ -80,7 +87,7 @@ public class AcronymsFragment extends Fragment {
         return  rootView;
     }
 
-    public void setLAcronymAdapter(View rV){
+    public void setLAcronymAdapter(final View rV){
 
         // Construct a new word adapter
         WordAdapter adapter  = new WordAdapter(getActivity(), words);
@@ -90,6 +97,31 @@ public class AcronymsFragment extends Fragment {
 
         //set the adapter to the listview
         listView.setAdapter(adapter);
+
+        //set the listview items onclick listener
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Word word = words.get(position);
+
+                // convert the position label and description data to string for transfer
+                String label = getResources().getString(word.getmMainWord());
+                String description = getResources().getString(word.getmMeaningResourceId());
+
+                //get color from the current position
+                int color = ContextCompat.getColor(getContext(),word.getmColorResourceId());
+                // transfer the string data to description activity
+                Intent intent = new Intent(getActivity(),DisplayDescriptionActivity.class);
+                intent.putExtra("background",color);
+                intent.putExtra("label",label);
+                intent.putExtra("description",description);
+                ((LearnActivity)getActivity()).startActivity(intent);
+
+                // toast the meaning
+                Toast toast = Toast.makeText(getContext(),"You have selected "+ label+ " .",Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
     }
 
 }

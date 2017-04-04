@@ -51,9 +51,6 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // set this text on the number TextView
         mainWordTextView.setText(currentWord.getmMainWord());
 
-        // Find the ImageView in the list_item.xml layout with the ID list_item_icon
-
-
         //set the theme color for the list item
         //View themeColor = listItemView.findViewById(R.id.list_background_color);
         //find the color that resource ID maps

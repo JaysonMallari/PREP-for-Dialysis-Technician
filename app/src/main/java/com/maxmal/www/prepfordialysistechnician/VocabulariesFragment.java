@@ -1,12 +1,16 @@
 package com.maxmal.www.prepfordialysistechnician;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -87,11 +91,148 @@ public class VocabulariesFragment extends Fragment {
                     new Word("D",R.string.dry_weigth,R.string.dry_weigth_meaning,R.color.d),
                     new Word("D",R.string.dyspnea,R.string.dyspnea_meaning,R.color.d),
 
+                    new Word("E",R.string.ecchymosis,R.string.ecchymosis_meaning,R.color.e),
+                    new Word("E",R.string.edema,R.string.edema_meaning,R.color.e),
+                    new Word("E",R.string.electrolyte,R.string.electrolyte_meaning,R.color.e),
+                    new Word("E",R.string.empty_bed_contact_time,R.string.empty_bed_contact_time_meaning,R.color.e),
+                    new Word("E",R.string.encephalopathy,R.string.encephalopathy_meaning,R.color.e),
+                    new Word("E",R.string.endocrine_function,R.string.endocrine_function_meaning,R.color.e),
+                    new Word("E",R.string.endotoxin,R.string.endotoxin_meaning,R.color.e),
+                    new Word("E",R.string.equilibrium,R.string.equilibriun_meaning,R.color.e),
+                    new Word("E",R.string.esrd_networks,R.string.esrd_networks_meaning,R.color.e),
+                    new Word("E",R.string.extracellular,R.string.extracellular_meaning,R.color.e),
+                    new Word("E",R.string.extracorporeal,R.string.extracorporeal_meaning,R.color.e),
+                    new Word("E",R.string.extracorporeal_circuit,R.string.extracorporeal_circuit_meaning,R.color.e),
+                    new Word("E",R.string.extracorporeal_circuit_monitors,R.string.extracorporeal_circuit_monitors_meaning,R.color.e),
+
+                    new Word("F",R.string.ferritin,R.string.ferritin_meaning,R.color.f),
+                    new Word("F",R.string.filters,R.string.filters_meaning,R.color.f),
+                    new Word("F",R.string.filtration,R.string.filtration_meaning,R.color.f),
+                    new Word("F",R.string.first_use_syndrome,R.string.first_use_syndrome_meaning,R.color.f),
+                    new Word("F",R.string.flow,R.string.flow_meaning,R.color.f),
+                    new Word("F",R.string.flow_rate,R.string.flow_rate_meaning,R.color.f),
+                    new Word("F",R.string.fluid_movement,R.string.fluid_movement_meaning,R.color.f),
+                    new Word("F",R.string.flush,R.string.flush_meaning,R.color.f),
+                    new Word("F",R.string.formalin,R.string.formalin_meaning,R.color.f),
+
+                    new Word("G",R.string.gradient,R.string.gradient_meaning,R.color.g),
+                    new Word("G",R.string.graft,R.string.graft_meaning,R.color.g),
+
+                    new Word("H",R.string.heat_disinfection,R.string.heat_disinfection_meaning,R.color.h),
+                    new Word("H",R.string.hematocrit,R.string.hematocrit_meaning,R.color.h),
+                    new Word("H",R.string.hematoma,R.string.hematoma_meaning,R.color.h),
+                    new Word("H",R.string.hemodialysis,R.string.hemodialysis_meaning,R.color.h),
+                    new Word("H",R.string.hemodialysis_adequacy,R.string.hemodialysis_adequacy_meaning,R.color.h),
+                    new Word("H",R.string.hemodialysis_delivery_system,R.string.hemodialysis_delivery_system_meaning,R.color.h),
+                    new Word("H",R.string.hemoglobin,R.string.hemoglobin_meaning,R.color.h),
+                    new Word("H",R.string.hemolysis,R.string.hemolysis_meaning,R.color.h),
+                    new Word("H",R.string.heparin,R.string.heparin_meaning,R.color.h),
+                    new Word("H",R.string.heparin_infusion_line,R.string.heparin_infusion_line_meaning,R.color.h),
+                    new Word("H",R.string.heparin_pump,R.string.heparin_pump_meaning,R.color.h),
+                    new Word("H",R.string.hepatitis,R.string.hepatitis_meaning,R.color.h),
+                    new Word("H",R.string.high_efficiency_dialysis,R.string.high_efficiency_dialysis_meaning,R.color.h),
+                    new Word("H",R.string.high_flux_dialysis,R.string.high_flux_dialysis_meaning,R.color.h),
+                    new Word("H",R.string.hippa,R.string.hippa_voc_meaning,R.color.h),
+                    new Word("H",R.string.hollow_fiber_dialyzer,R.string.hollow_fiber_dialyzer_meaning,R.color.h),
+                    new Word("H",R.string.homeostasis,R.string.homeostasis_meaning,R.color.h),
+                    new Word("H",R.string.human_immunodeficincy_virus,R.string.human_immunodeficincy_virus_meaning,R.color.h),
+                    new Word("H",R.string.hydraulic_pressure,R.string.hydraulic_pressure_meaning,R.color.h),
+                    new Word("H",R.string.hydrophobic,R.string.hydrophobic_meaning,R.color.h),
+                    new Word("H",R.string.hypercalcemia,R.string.hypercalcemia_meaning,R.color.h),
+                    new Word("H",R.string.hyperglycemia,R.string.hypercalcemia_meaning,R.color.h),
+                    new Word("H",R.string.hyperkalemia,R.string.hyperkalemia_meaning,R.color.h),
+                    new Word("H",R.string.hypermagnesium,R.string.hypermagnesium_meaning,R.color.h),
+                    new Word("H",R.string.hypernatremia,R.string.hypernatremia_meaning,R.color.h),
+                    new Word("H",R.string.hyperphosphathemia,R.string.hyperphosphathemia_meaning,R.color.h),
+                    new Word("H",R.string.hypersensitivity,R.string.hypersensitivity_meaning,R.color.h),
+                    new Word("H",R.string.hypertension,R.string.hypertension_meaning,R.color.h),
+                    new Word("H",R.string.hypokalemia,R.string.hypokalemia_meaning,R.color.h),
+                    new Word("H",R.string.hyponatremia,R.string.hyponatremia_meaning,R.color.h),
+                    new Word("H",R.string.hypotension,R.string.ferritin_meaning,R.color.h),
+                    new Word("H",R.string.hypotonic_dialysate,R.string.hypotonic_dialysate_meaning,R.color.h),
+
+                    new Word("I",R.string.infection,R.string.infection_meaning,R.color.i),
+                    new Word("I",R.string.infection_control,R.string.infection_control_meaning,R.color.i),
+                    new Word("I",R.string.infiltration,R.string.infiltration_meaning,R.color.i),
+                    new Word("I",R.string.inflamation,R.string.inflamation_meaning,R.color.i),
+                    new Word("I",R.string.intracellularn,R.string.intracellularn_meaning,R.color.i),
+                    new Word("I",R.string.iron_deficiency,R.string.iron_deficiency_meaning,R.color.i),
+
+                    new Word("K",R.string.kdigo,R.string.kdigo_meaning,R.color.k),
+                    new Word("K",R.string.ktv,R.string.ktv_voc_meaning,R.color.k),
+                    new Word("K",R.string.kuf,R.string.kuf_meaning,R.color.k),
+
+                    new Word("M",R.string.metabolism,R.string.metabolism_meaning,R.color.m),
+                    new Word("M",R.string.molecule,R.string.molecule_meaning,R.color.m),
+                    new Word("M",R.string.morbidity,R.string.morbidity_meaning,R.color.m),
+                    new Word("M",R.string.mortality,R.string.mortality_meaning,R.color.m),
+
+                    new Word("N",R.string.needle_site_rotation,R.string.needle_site_rotation_meaning,R.color.n),
+                    new Word("N",R.string.negative_pressure,R.string.negative_pressure_meaning,R.color.n),
+                    new Word("N",R.string.nephrologist,R.string.nephrologist_meaning,R.color.n),
+                    new Word("N",R.string.nephron,R.string.nephron,R.color.n),
+                    new Word("N",R.string.normal_salin,R.string.normal_salin_meaning,R.color.n),
+
+                    new Word("O",R.string.osmosis,R.string.osmosis_meaning,R.color.o),
+
+                    new Word("P",R.string.palpitations,R.string.palpitations_meaning,R.color.p),
+                    new Word("P",R.string.parathyroid_hormone,R.string.parathyroid_hormone_meaning,R.color.p),
+                    new Word("P",R.string.pericarditis,R.string.pericarditis_meaning,R.color.p),
+                    new Word("P",R.string.permeable,R.string.permeable_meaning,R.color.p),
+                    new Word("P",R.string.ph,R.string.ph_voc_meaning,R.color.p),
+                    new Word("P",R.string.phosphate_binder,R.string.phosphate_binder_meaning,R.color.p),
+                    new Word("P",R.string.post_dialysis_pressure,R.string.post_dialysis_pressure_meaning,R.color.p),
+                    new Word("P",R.string.post_pump_arterial_pressure,R.string.post_pump_arterial_meaning,R.color.p),
+                    new Word("P",R.string.potassium,R.string.potassium_meaning,R.color.p),
+                    new Word("P",R.string.predialyzer_presssure,R.string.predialyzer_presssure_meaning,R.color.p),
+                    new Word("P",R.string.pre_pump_arterial,R.string.pre_pump_arterial_meaning,R.color.p),
+                    new Word("P",R.string.pressure,R.string.pressure_meaning,R.color.p),
+                    new Word("P",R.string.priming,R.string.priming_meaning,R.color.p),
+                    new Word("P",R.string.pruritus,R.string.pruritus_meaning,R.color.p),
+                    new Word("P",R.string.pseudoaneurysm,R.string.pseudoaneurysm_meaning,R.color.p),
+                    new Word("P",R.string.pyrogen,R.string.pyrogen_meaning,R.color.p),
+                    new Word("P",R.string.pyrogenic_reaction,R.string.pyrogenic_meaning,R.color.p),
+
+                    new Word("R",R.string.recirculation,R.string.recirculation_meaning,R.color.r),
+                    new Word("R",R.string.rejection,R.string.rejection_meaning,R.color.r),
+                    new Word("R",R.string.reprocessing,R.string.reprocessing_meaning,R.color.r),
+                    new Word("R",R.string.reverse_osmosis,R.string.reverse_osmosis_meaning,R.color.r),
+                    new Word("R",R.string.rinseback,R.string.rinseback_meaning,R.color.r),
+
+                    new Word("S",R.string.saline_infusion,R.string.saline_infusion_meaning,R.color.s),
+                    new Word("S",R.string.semipermeable_membrane,R.string.semipermeable_membrane_meaning,R.color.s),
+                    new Word("S",R.string.shunts,R.string.shunts_meaning,R.color.s),
+                    new Word("S",R.string.sodium,R.string.sodium_meaning,R.color.s),
+                    new Word("S",R.string.solute,R.string.solute_meaning,R.color.s),
+                    new Word("S",R.string.solvent,R.string.solvent_meaning,R.color.s),
+                    new Word("S",R.string.stenosis,R.string.stenosis_meaning,R.color.s),
+                    new Word("S",R.string.stents,R.string.stents_meaning,R.color.s),
+                    new Word("S",R.string.sterilant,R.string.sterilant_meaning,R.color.s),
+                    new Word("S",R.string.sterile,R.string.sterile_meaning,R.color.s),
+                    new Word("S",R.string.systolic,R.string.systolic_meaning,R.color.s),
+
+                    new Word("T",R.string.temperature_alarm,R.string.temperature_alarm_meaning,R.color.t),
+                    new Word("T",R.string.thrill,R.string.thrill_meaning,R.color.t),
+                    new Word("T",R.string.thrombolysis,R.string.thrombolysis_meaning,R.color.t),
+                    new Word("T",R.string.thrombus,R.string.thrombus_meaning,R.color.t),
+                    new Word("T",R.string.tranducer_protectors,R.string.tranducer_protectors_meaning,R.color.t),
+                    new Word("T",R.string.transmembrane_pressure,R.string.transmembrane_pressure_meaning,R.color.t),
+
+                    new Word("U",R.string.ultrafiltration,R.string.ultrafiltration_meaning,R.color.u),
+                    new Word("U",R.string.ufr,R.string.ufr_meaning,R.color.u),
+                    new Word("U",R.string.uremia,R.string.uremia_meaning,R.color.u),
+                    new Word("U",R.string.usrds,R.string.usrds_meaning,R.color.u),
+
+                    new Word("V",R.string.venous_pressure,R.string.venous_pressure_meaning,R.color.v),
+                    new Word("V",R.string.virus,R.string.virus_meaning,R.color.v),
+
+                    new Word("W",R.string.water_softener,R.string.water_softener_meaning,R.color.w)
 
 
 
 
-            ));
+
+                    ));
 
 
     public VocabulariesFragment() {
@@ -121,6 +262,32 @@ public class VocabulariesFragment extends Fragment {
 
         //set the adapter to the listview
         listView.setAdapter(adapter);
+
+        //set the listview items onclick listener
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                Word word = words.get(position);
+
+                // convert the position label and description data to string for transfer
+                String label = getResources().getString(word.getmMainWord());
+                String description = getResources().getString(word.getmMeaningResourceId());
+
+                //get color from the current position
+                int color = ContextCompat.getColor(getContext(),word.getmColorResourceId());
+                // transfer the string data to description activity
+                Intent intent = new Intent(getActivity(),DisplayDescriptionActivity.class);
+                intent.putExtra("background",color);
+                intent.putExtra("label",label);
+                intent.putExtra("description",description);
+                ((LearnActivity)getActivity()).startActivity(intent);
+
+                // toast the meaning
+                Toast toast = Toast.makeText(getContext(),"You have selected "+ label+ " .",Toast.LENGTH_SHORT);
+                toast.show();
+            }
+        });
+
     }
 
 
