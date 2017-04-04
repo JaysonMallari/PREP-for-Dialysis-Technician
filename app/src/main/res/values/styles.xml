@@ -19,9 +19,8 @@
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@android:color/white</item>
         <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="android:elevation">10dp</item>
     </style>
-
-
 
     <style name="welcomButtons">
         <item name="android:layout_height">wrap_content</item>
@@ -37,6 +36,24 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:gravity">center_horizontal</item>
+    </style>
+
+
+
+    <style name="initial_list_item">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">A</item>
+        <item name="android:textSize">@dimen/category_letter</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:paddingLeft">16dp</item>
+    </style>
+
+
+    <style name="main_word_list_item">
+        <item name="android:text">@string/arbd</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
 </resources>

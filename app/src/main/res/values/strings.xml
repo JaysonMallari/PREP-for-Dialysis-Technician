@@ -13,4 +13,661 @@
     <string name="category_conversions">Conversions</string>
     <string name="category_organiztions">Organizations</string>
     <string name="category_vocabulary">Vocabularies</string>
-</resources>
+
+	
+	<!-- learn category MEANING-->
+    <string name="arbd">ARBD</string>
+	<string name="arbd_meaning">Aluminum-related Bone Disease</string>
+    <string name="av">AV</string>
+	<string name="av_meaning">Arteriovenous</string>
+	<string name="apd">APD</string>
+	<string name="apd_meaning">Automated Peritoneal Dialysis</string>
+	<!-- learn category -->
+	<string name="bun">BUN</string>
+	<string name="bun_meaning">Blood Urea Nitrogen</string>
+	<!-- learn category -->
+	<string name="capd">CAPD</string>
+	<string name="capd_meaning">Continuous Ambulatory Peritoneal Dialysis</string>
+	<string name="ccpd">CCPD</string>
+	<string name="ccpd_meaning">Continuous Cycling Peritoneal Dialysis</string>
+	<string name="cfu">CFU</string>
+	<string name="cfu_meaning">Colony-Forming Unit</string>
+	<string name="chf">CHF</string>
+	<string name="chf_meaning">Congestive Heart Failure</string>
+	<string name="ckd">CKD</string>
+	<string name="ckd_meaning">Chronic Kidney Failure</string>
+	<string name="cqi">CQI</string>
+	<string name="cqi_meaning">Continuous Quality Improvement</string>
+	<string name="crrt">CRRT</string>
+	<string name="crrt_meaning">Continuous Renal Replacement Theraphy</string>
+	<!-- learn category -->
+	<string name="edw">EDW</string>
+	<string name="edw_meaning">Estimated Dry Weight</string>
+	<string name="epo">EPO</string>
+	<string name="epo_meaning">Erythropoietin</string>
+	<string name="esrd">ESRD</string>
+	<string name="esrd_meaning">End-Stage Renal Disease</string>
+	<string name="eto">ETO</string>
+	<string name="eto_meaning">Ethylene Oxide</string>
+	<!-- learn category -->
+	<string name="fbv">FBV</string>
+	<string name="fbv_meaning">Fiber Bundle Volume</string>
+	<!-- learn category -->
+	<string name="gfr">GFR</string>
+	<string name="gfr_meaning">Glomerular Filtration Rate</string>
+	<!-- learn category -->
+	<string name="hct">hct</string>
+	<string name="hct_meaning">Hematocrit</string>
+	<string name="hgb">Hgb</string>
+	<string name="hgb_meaning">Hemoglobin</string>
+	<string name="hippa">HIPPA</string>
+	<string name="hippa_meaning">Health Insurance Portability and Accountability</string>
+	<string name="hiv">HIV</string>
+	<string name="hiv_meaning">Human Immunodeficiency Virus</string>
+	<!-- learn category -->
+	<string name="ij">IJ</string>
+	<string name="ij_meaning">Internal Jugular</string>
+	<string name="iu">IU</string>
+	<string name="iu_meaning">Isolated Ultrafiltration</string>
+	<!-- learn category -->
+	<string name="k">K</string>
+	<string name="k_meaning">Clearance</string>
+	<string name="ktv">Kt/V</string>
+	<string name="ktv_meaning">Measure of Adequacy</string>
+	<string name="kut">K ut</string>
+	<string name="kut_meaning">Coefficient of Ultrafiltration</string>
+	
+	<!-- learn category -->
+	<string name="mi">MI</string>
+	<string name="mi_meaning">Myocardial Infarction</string>
+	<!-- learn category -->
+	<string name="ng">NG</string>
+	<string name="ng_meaning">Nasogastric</string>
+	<!-- learn category -->
+	<string name="pd">PD</string>
+	<string name="pd_meaning">Peritoneal Dialysis</string>
+	<string name="ph">pH</string>
+	<string name="ph_meaning">Measure of Acidity</string>
+	<string name="pth">PTH</string>
+	<string name="pth_meaning">Parathyroid Hormone</string>
+	<!-- learn category -->
+	<string name="ro">RO</string>
+	<string name="ro_meaning">Reverse Osmosist</string>
+	<!-- learn category -->
+	<string name="sdhhd">SDHHD</string>
+	<string name="sdhhd_meaning">Short Daily Home Hemodialysis</string>
+	<string name="sc">SC</string>
+	<string name="sc_meaning">Sieving Coefficient</string>
+	<!-- learn category -->
+	<string name="tcv">TCV</string>
+	<string name="tcv_meaning">Total Cell Volume</string>
+	<string name="tmp">TMP</string>
+	<string name="tmp_meaning">Transmembrane Pressure</string>
+	<string name="tnp">TNP</string>
+	<string name="tnp_meaning">Total Parenteral Nutrition</string>
+	<!-- learn category -->
+	<string name="uf">UF</string>
+	<string name="uf_meaning">Ultrafiltration</string>
+	<string name="ufr">UFR</string>
+	<string name="ufr_meaning">Ultrafiltration Rate</string>
+	<string name="ukm">UKM</string>
+	<string name="ukm_meaning">Urea Kinetic Modeling</string>
+	<string name="uv">UV</string>
+	<string name="uv_meaning">Ultraviolet</string>
+	<string name="urr">URR</string>
+	<string name="urr_meaning">Urea Reduction Ratio</string>
+
+	<!-- convertion category -->
+	<string name="liquid_measurement">Liquid Measurement</string>
+	<string name="liquid_measurement_meaning">
+	1 fluid ounce = 29.572 mL \n
+	1 cup = 8 fluid ounce \n
+	1 cup = 236.565 mL \n
+	1 quart = 32 fluid ounce \n
+	1 quart = 945 mL \n
+	1 L = 1.0567 quarts \n
+	1 L = 0.26417 gallons \n 
+	1 gallon = 4 quarts \n
+	1 gallon = 3785 mL
+	</string>
+	<string name="metric_liquid_measures">Metric Liquid Measures</string>
+	<string name="metric_liquid_measures_measurement_meaning">
+	10 mL = 1 cL \n
+	10 cL = 1 dL \n
+	10 dL = 1 L \n
+	10 L = 1 decaliter \n
+	10 decaliters = 1 hectoliter \n
+	10 hectoliters = 1 kiloliter
+	</string>
+	<string name="length_measures">Length</string>
+	<string name="length_measures_measurement_meaning">
+	1 inch = 2.54 cm \n
+	1 mm = 0.03937 inches \n
+	1 cm = 0.01 m \n
+	1 m = 39.37 inches
+	</string>
+	<string name="weight_measures">Weight</string>
+	<string name="weight_measures_measurement_meaning">
+	1 g = 0.035273 avoidupois oz \n
+	1 g = approximately 1/28 oz \n
+	1 oz = 28.35 g \n
+	1 nanogram = 1 billionth of a g \n
+	1 avoidupois oz = 28.349527 g \n
+	1 avoidupois lb = 0.453592 kg \n
+	1000 g = 1 kg \n
+	1 kg = 2.20462 avoidupois lb
+	</string>
+	<string name="metric_weight_measures">Metric Weight</string>
+	<string name="metric_weight_measures_measurement_meaning">
+	10 mg = 1 cg \n
+	10 cg  = 1 dg \n
+	10 dg = 1000 mg \n
+	1000 mg  = 1 g \n
+	10 g = 1 dg \n
+	10 dg  = 1 hg \n
+	10 hg  = 1000 g \n
+	1000 g  = 1 kg \n
+	100 kg = 1 quintal \n 
+	10 quintal = 1 ton
+	</string>
+	<string name="linear_measures">Linear Measures</string>
+	<string name="linear_measures_measurement_meaning">
+	10 mm = 1 cm \n
+	10 cm  = 1 dm \n
+	10 dm = 1000 mm \n
+	1000 mm  = 1 m \n
+	10 m = 1 dm \n
+	10 dm  = 1 hm \n
+	10 hm  = 1000 m \n
+	1000 m  = 1 km
+	</string>
+	<string name="metric_square_measures">Metric Square Measures</string>
+	<string name="metric_square_measures_measurement_meaning">
+	100 sq. mm = 1 sq. cm \n
+	100 sq. cm  = 1 sq. dm \n
+	10 sq. dm = 10,000 sq. cm \n
+	10,000 sq. cm = 1 sq. m \n
+	100 sq. m  = 1 sq. dm \n
+	100 sq. dm = 1 sq. hm \n
+	100 sq. hm  = 1 million sq. m \n
+	1 million sq. m = 1 sq. km
+	</string>
+	<string name="metric_cubic_measures">Metric Cubic Measures</string>
+	<string name="metric_cubic_measures_measurement_meaning">
+	10 mL = 1 cubic centimeter \n
+	1,000 cubic millimeters = 1 cubic centimeter \n
+	1,000 cubic centimeters = 1 cubic decimeter \n
+	1,000 cubic decimeter = 1,000,000 cubic centimeters \n
+	1,000,000 cubic centimeters  = 1 cubic meter
+	</string>
+	<string name="temp_measures">Temperature</string>
+	<string name="temp_measures_measurement_meaning">
+	\u2109 to \u2103 = (\u2103 \u00d7 1.8) + 32 \n
+	\u2103 to \u2109 = (\u2109 - 32) \u00f7 1.8
+	</string>
+	
+	<!-- organization category -->
+	<string name="aakp">AAKP</string>
+	<string name="aakp_meaning">American Association of Kidney Patients</string>
+	<string name="aami">AAMI</string>
+	<string name="aami_meaning">Association for the Advancement of Medical Instrumentation</string>
+	<string name="ada">ADA</string>
+	<string name="ada_meaning">American Diabetes Association</string>
+	<string name="afk">AFK</string>
+	<string name="afk_meaning">American Kidney Fund</string>
+	<string name="anna">ANNA</string>
+	<string name="anna_meaning">American Nephrology Nurses Association</string>
+	<string name="asn">ASN</string>
+	<string name="asn_meaning">American Society of Nephrology</string>
+	<string name="bonent">BONENT</string>
+	<string name="bonent_meaning">Board of Nephrology Examiners - Nursing and Technology</string>
+	<string name="cbnt">CBNT</string>
+	<string name="cbnt_meaning">Certified in Biomedical Nephrology Technology</string>
+	<string name="ccht">CCHT</string>
+	<string name="ccht_meaning">Certified Clinical Hemodialysis Technician</string>
+	<string name="ccnt">CCNT</string>
+	<string name="ccnt_meaning">Certified in Clinical Nephrology Technology</string>
+	<string name="cms">CMS</string>
+	<string name="cms_meaning">Centers for Medicare and Medicaid Services</string>
+	<string name="dfc">DFC</string>
+	<string name="dfc_meaning">Dialysis Facility Compare</string>
+	<string name="fda">FDA</string>
+	<string name="fda_meaning">Food and Drug Administration</string>
+	<string name="kdigo">KDIGO</string>
+	<string name="kdigo_meaning">Kidney Disease: Improving Global Outcomes</string>
+	<string name="kdoqi">KDOQI</string>
+	<string name="kdoqi_meaning">Kidney Disease Outcomes Quality Initiative</string>
+	<string name="nant">NANT</string>
+	<string name="nant_meaning">National Association of Nephrology Technicians/Technologists</string>
+	<string name="nfa">NFA</string>
+	<string name="nfa_meaning">National Kidney Foundation</string>
+	<string name="nraa">NRAA</string>
+	<string name="nraa_meaning">National Renal Administrators Association</string>
+	<string name="pkd">PKD</string>
+	<string name="pkd_meaning">Foundation Polycystic Kidney Disease Foundation</string>
+	<string name="rpa">RPA</string>
+	<string name="rpa_meaning">Renal Physicians Association</string>
+	<string name="rsn">RSN</string>
+	<string name="rsn_meaning">Renal Support Network</string>
+	<string name="unos">UNOS</string>
+	<string name="unos_meaning">United Network for Organ Sharing</string>
+	<string name="usrds">USRDS</string>
+	<string name="usrds_meaning">United States Renal Data System</string>
+	
+	<!-- Vocabularies -->
+	<string name="aami_voc_meaning">An acronym that stands for the Advancement of Medical Instrumentation.
+	AAMI creates the standards for varios features of dialysis, including water treatment and dialyzer 
+	reprocessing. The AAMI Guidelines have been approved by the Centers for Medicare and Medicaid Services.
+	</string>
+	<string name="abscess">Abscess</string>
+	<string name="abscess_meaning">A type of infection found under the skin, and resembles a blister or a 
+	pimple filled with pus or fluid. Infection on the fistula, graft or other tissues may happen if a fistula 
+	needle is used in or near the abscess.
+	</string>
+	<string name="access">Acess</string>
+	<string name="access_meaning">An access is a route into the bloodstream which allows enough blood flow for 
+	hemodialysis. There are two types of access. Permanent Access is when the vein is connected to the artery by 
+	surgeon. It can be done directly through the fistula or synthetically with a piece of synthetic tubing, or graft. 
+	The temporay vascular access is performed by catheter when it is placed in a large central vein.
+	</string>
+	<string name="acid">Acid</string>
+	<string name="acid_meaning">A substance with pH below 7.0</string>
+	<string name="aids">AIDS</string>
+	<string name="aids_meaning">Aquired Immunodeficiency Syndrome is a disease that causes the body to loss control of 
+	the body\'s immune system, greatly increasing the chance for infections and other diseases such as cancer.</string>
+	<string name="acute_kidney_failure">Acute Kidney Failure</string>
+	<string name="acute_kidney_failure_meaning">A type of kidney failure that happens suddenly. It is commonly caused 
+	by sickness, injury or toxic substances that create stress on the kidneys.</string>
+	<string name="air_embolism">Air Embolism</string>
+	<string name="air_embolism_failure_meaning">Tis Occurs when air bubbles get into the bloodstream and enters a vessels 
+	tiny enough to be blocked by air. The flow of blood becomes blocked when the air embolus in the vessels acts like a clot.</string>
+	<string name="albumin">Albumin</string>
+	<string name="albumin_meaning">A blood protein. It is critical to pay attention to albumin levels, especially under 3.5g/dL. 
+	Patients with low albumin levels are malnourished.</string>
+	<string name="alkaline">Alkaline</string>
+	<string name="alkaline_meaning">A substance that has a pH level greater than 7.0</string>
+	<string name="alum">Alum</string>
+	<string name="alum_meaning">A colorless aluminum compound often found in water supplies to remove sediment and make water clearer. 
+	When such water is used for dialysis treatments, it is the key to keep the aluminum at low levels by treating the water used to make dialysate.</string>
+	<string name="anastomosis">Anastomosis</string>
+	<string name="anastomosis_meaning">The spot where a surgical connection is made. An anastomosis is where vein and artery come together to form a fistula, 
+	or where an artificial vein is joined to the artery and vein for a graft.</string>
+	<string name="anemia">Anemia</string>
+	<string name="anemia_meaning">The condition of having a low number of re blood cells. The results in weakness and weariness.</string>
+	<string name="aneurysm">Aneurysm</string>
+	<string name="anuerysm_meaning">A localized enlargement of the artery caused by weakening in a blood vessels.</string>
+	<string name="anticoagulant">Anticoagulant</string>
+	<string name="anticoagulant_meaning">A blood thinner given to the patients during dialysis treatment to prevent clots in the blood.</string>
+	<string name="antiseptics">Antiseptics</string>
+	<string name="antiseptics_meaning">A product that slows down and/or stops bacteria and viruses from growing and spreading.</string>
+	<string name="arrhytmia">Arrhythmia</string>
+	<string name="arrhytmia_meaning">An irregular of the hearbeat.</string>
+	<string name="arterial_pressure">Arterial Pressure</string>
+	<string name="arterial_pressure_meaning">This type of pressure is measured in the extracorporeal circuit between the arterial needle and the dialyzer.</string>
+	<string name="arterial_pressure_monitor">Arterial Pressure Monitor</string>
+	<string name="arterial_pressure_monitor_meaning">A pressure sensor monitors pre-pump arterial pressures and post-pump arterial pressure.</string>
+	<string name="arteriovenous_fistula">Arteriovenous(AV) Fistula</string>
+	<string name="arteriovenous_fistula_meaning">AVF is a type of surgical connection made between the artery and the vein under the skin of a leg or arm to provide access to the blood.</string>
+	<string name="arteriole">Arteriole</string>
+	<string name="arteriole_meaning">A small artery.</string>
+	<string name="artery">Artery</string>
+	<string name="artety_meaning">The blood vessel that carries blood away from the heart during high pressure. Arteries help to bring oxygen to every part of the body through the blood.</string>
+	<string name="automated_peritoneal_dialysis">Automated Peritoneal Dialysis</string>
+	<string name="automated_peritoneal_dialysis_meaning">Also known as continous cycling peritoneal dialysis . It is cycler machine used to do many exchanges of dialysate while the patient is asleep.</string>
+	
+	<string name="backfiltration">Backfiltration</string>
+	<string name="backfiltration_meaning">The movement of dialysate in the dialyzer membrane and its entry into the patients blood. 
+	It may occur when there is a change in the pressure or concentration gradient between the blood and dialysate. </string>
+	<string name="backwashing">Backwashing</string>
+	<string name="backwashing_meaning">A technique whee water is forced backwards through a filter to remove clogged particles in the water treatment system.</string>
+	<string name="bacteria">Bacteria</string>
+	<string name="bacteria_meaning">A one-celled microorganism that causes sickness and disease.</string>
+	<string name="base">Base</string>
+	<string name="base_meaning">A substance with a pH of 7.0</string>
+	<string name="bicarbonate">Bicarbonate</string>
+	<string name="bicarbonate_meaning">A solution used by the body to neutralize acids that occur in the body when it breaks down protein and other types of food.</string>
+	<string name="blood_leak">Blood Leak</string>
+	<string name="blood_leak_meaning">Happens when the semipermeable membrane of the dialyzer tears, allowing blood leak into dialysate.</string>
+	<string name="blood_leak_detector">Blood Leak Detector</string>
+	<string name="blood_leak_detector_meaning">This is an alarm system that is install on the hemodialysis delivery system, It alerts staff when a blood leak is occurring.</string>
+	<string name="bloodlines">Bloodlines</string>
+	<string name="bloodlines_meaning">The extracorporeal circuit that carries blood from the patient through the arterial needle, to the dialyzer 
+	and back tot heir patient through the venous needle.</string>
+	<string name="blood_pump">Blood Pump</string>
+	<string name="blood_pump_meaning">A pump that is part of the hemodialysis delivery system that pushes the patient\'s blood through the 
+	extracorporeal circuit at the fixed rate of speed.</string>
+	<string name="blood_pump_segment">Blood Pump Segment</string>
+	<string name="blood_pump_segment_meaning">A sturdy larger diameter section of the arterial blood tubing that is put through the rollers of the blood pump.</string>
+	<string name="blood_urea_nitrogen">Blood Urea Nitrogen</string>
+	<string name="blood_urea_nitrogen_meaning">Also known as BUN. A method of measuring urea in the blood.</string>
+	<string name="brachial_pulse">Brachial Pulse</string>
+	<string name="brachial_pulse_meaning">A pulse fekt in the antecubital area at the brachial artery.</string>
+	<string name="brine">Brine</string>
+	<string name="brine_meaning">Concentrated saline solution.</string>
+	<string name="bruit">Bruit</string>
+	<string name="bruit_meaning">a buzzing or swooshing sound that may occur by a high-pressure flow of blood through the patient\'s AV fistula.</string>
+	<string name="buffer">Buffer</string>
+	<string name="buffer_meaning">A substance that stabilizes the pH level of a solution.</string>
+	<string name="button_hole_technique">Buttonhole Technique</string>
+	<string name="button_hole_technique_meaning">A technique where dialysis needles are placed in the fistula through the same hole ate the exact sanme angle.</string>
+	<string name="bypass">Bypass</string>
+	<string name="bypass_meaning">A safety feature of the hemodialysis delivery system that ends the flows of fresh dialysateto the dialyzer and shunts it to the drain.</string>
+	
+	<string name="calcium">Calcium</string>
+	<string name="calcium_meaning">The chemical element used for nerve and muscle function. It is also helps form strong bones.</string>
+	<string name="cannulate">Cannulate</string>
+	<string name="cannulate_meaning">The act of putting dialysis needles into the graft or fistula.</string>
+	<string name="capillaries">Capillaries</string>
+	<string name="capillaries_meaning">The smallest blood vessels in the body where oxygenated blood crosses from the arteries to the veins.</string>
+	<string name="carbon_tank">Carbon Tank</string>
+	<string name="carbon_tank_meaning">A water treatment machine that has granular and is used to remove harmful substances from the water used for dialysis.</string>
+	<string name="cardiac_arrest">Cardiac Arrest</string>
+	<string name="cardiac_arrest_meaning">This happens when the heart stops beating.</string>
+	<string name="catheter">Catheter</string>
+	<string name="catheter_meaning">A plastic tube that is usually place in the chest central vein.</string>
+	<string name="chlorine">Chlorine</string>
+	<string name="chlorine_meaning">A chemical element added to water to destroy microorganisms. Chlorine is removed from water used in a dialysis center with carbon tanks.</string>
+	<string name="chronic_kidney_disease">Chronic Kidney Disease</string>
+	<string name="chronic_kidney_disease_meaning">The loss of nephrones in a slow and long process. Kidney function is decreased when this disease occur.</string>
+	<string name="clearance">Clearance (K)</string>
+	<string name="clearance_meaning">The amount of blood(mL) that is cleared of solute in one minute of dialysis at the given blood and dialysate flow rate.</string>
+	<string name="clinical_practice_guidelines">Clinical Practice Guidelines</string>
+	<string name="clinical_practice_guidelines_meaning">Recommendations from medical research and experts given to improve patient treatment results.</string>
+	<string name="coefficient_ultrfiltration">Coefficient of Ultrafiltration</string>
+	<string name="coefficient_ultrfiltration_meaning">The fixed amount of fluid in the dialyzer machine removes from a patient\'s blood per hour under a specified pressure.</string>
+	<string name="conductivity">Conductivity</string>
+	<string name="conductivity_meaning">The ability of a fluid to transfer an electrical charge.</string>
+	<string name="conductivity_monitor">Conductivity Monitor</string>
+	<string name="conductivity_monitor_meaning">Yhe device checks the conductivity of the dialysate to ensure that is correct.</string>
+	<string name="countercurrent_flow">Countercurrent Flow</string>
+	<string name="countercurrent_flow_meaning">This is the action of blood moving in one direction and the dialysate moving in the other direction during treatment in the dialyzer.</string>
+	<string name="creatinine">Creatinine</string>
+	<string name="creatinine_meaning">The waste that is produced by muscle use and is removed by healthy kidneys through excretion in urination.</string>
+	<string name="creatinine_clearance">Creatinine Clearance</string>
+	<string name="creatinine_clearance_meaning">This is a urine test that determines if the kidneys are removing creatinine effectively from the blood in a certain amount of time.</string>
+	<string name="crenation">Crenation</string>
+	<string name="crenation_meaning">When the blood cells shivel as a result of the blood cells being in contact with a solution that is more concentrated than the blood itself.</string>
+	
+	<string name="dehydration">Dehydration</string>
+	<string name="dehydration_meaning">This process happens when the body does not have a sufficient amount of water.</string>
+	<string name="diabetic_nephropathy">Diabetic Nephropathy</string>
+	<string name="diabetic_nephropathy_meaning">This is a type of kidney disease that occurs because of diabetes.</string>
+	<string name="dialysate">Dialysate</string>
+	<string name="dialysate_meaning">A mixture of treated water and chemical used to remove waste from blood.</string>
+	<string name="dialysis">Dialysis</string>
+	<string name="dialysis_meaning">The procedure of removing waste and extra fluid from the blood of individuals with kidney failure</string>
+	<string name="dialysis_disequilibrium_syndrome">Dialysis Disequilibrium Syndrome</string>
+	<string name="dialysis_disequilibrium_syndrome_meaning">The state where extracellular fluid affects the patient\'s brain suddenly.</string>
+	<string name="dialyzer">Dialyzer</string>
+	<string name="dialyzer_meaning">An artificial kidney used in hemodialysis patients with kidney failure to remove fluid and waste from the blood.</string>
+	<string name="diastolic">Diastolic</string>
+	<string name="diastolic_meaning">The pressure of blood against the arteries when the heart is at rest.</string>
+	<string name="disinfectant">Disinfectant</string>
+	<string name="disinfectant_meaning">A chemical or process that eliminates or slows the growth of harmful microbes.</string>
+	<string name="documentation">Documentation</string>
+	<string name="documentation_meaning">The information written down in a patient\'s medical record used to track patient\'s progress of treatment.</string>
+	<string name="dry_weigth">Dry Weight</string>
+	<string name="dry_weigth_meaning">The patient\'s weight without excess fluid.</string>
+	<string name="dwell_time">Dwell Time</string>
+	<string name="dwell_time_meaning">The amount of time a disinfectant must remian inside the dialyzer to ensure complete disinfection during reprocessing.</string>
+	<string name="dyspnea">Dyspnea</string>
+	<string name="dyspnea_meaning">The act of having trouble breathing or shortness of breath.</string>
+	
+	<string name="ecchymosis">Ecchymosis</string>
+	<string name="ecchymosis_meaning">A bruise or bleeding under the skin.</string>
+	<string name="edema">Edema</string>
+	<string name="edema_meaning">This is when water retention causes the body tissues to become swollen.</string>
+	<string name="electrolyte">Electrolyte</string>
+	<string name="electrolyte_meaning">A compund that separates into ions when dissolved in water.</string>
+	<string name="empty_bed_contact_time">Empty Bed Contact Time (EBCT)</string>
+	<string name="empty_bed_contact_time_meaning">The amount of time that feed water must remian in contact with charcoal bed in a carbon tank during water treatment to remove chlorine and chloramines.</string>
+	<string name="encephalopathy">Encephalopathy</string>
+	<string name="encephalopathy_meaning">A change in the brain function that can be deadly.</string>
+	<string name="endocrine_function">Endocrine Function</string>
+	<string name="endocrine_function_meaning">The process where hormones are produced by healthy, functioning kidneys.</string>
+	<string name="esrd_networks">ESRD Networks</string>
+	<string name="esrd_networks_meaning">The networks created by the U.S. goverment in 1978 to ensure that dialysis centers provide patients the highest quality care.</string>
+	<string name="extracellular">Extracellular</string>
+	<string name="extracellular_meaning">The exterior part of the cells.</string>
+	<string name="extracorporeal">Extracorporeal</string>
+	<string name="extracorporeal_meaning">This means the outside of the body</string>
+	<string name="extracorporeal_circuit">Extracorporeal Circuit</string>
+	<string name="extracorporeal_circuit_meaning">The arterial bloodline, dialyzer, venous bloodline and the extracorporeal circuit monitors that extend out of the patient\'s body. It helps transport blood from access to dialyzer and back to the patient.</string>
+    <string name="extracorporeal_circuit_monitors">Extracorporeal Circuit Monitors</string>
+	<string name="extracorporeal_circuit_monitors_meaning">A device that includes a blood flow monitor, an air detector, a blood leak detector and an arterial pressure monitor that shuts off the blood pump in prevention manner.</string>	
+    
+	<string name="ferritin">Ferritin</string>
+	<string name="ferritin_meaning">A iron storage protein complex in the body\'s tissues usually measured with blood test.</string>	
+	<string name="filters">Filters</string>
+	<string name="filters_meaning">A machine used to remove particles and other substances by preventing them from going through holes of different sizes.</string>
+	<string name="filtration">Filtration</string>
+	<string name="filtration_meaning">A process of passing fluid through the filter.</string>
+	<string name="first_use_syndrome">First-Use Syndrome</string>
+	<string name="first_use_syndrome_meaning">Symptoms that happens shortly after initiaing a treatment with a new dialyzer. The following symptoms may occur: back pain, chest pain, nervousness, itchiness or heart palpitations.</string>
+	<string name="flow">Flow</string>
+	<string name="flow_meaning">This is a stream, for instance:blood flow is the stream of blood.</string>
+	<string name="flow_rate">Flow Rate</string>
+	<string name="flow_rate_meaning">The amount of fluid that goes through a tube in a certain amount of time.</string>
+	<string name="flow_velocity">Flow Velocity</string>
+	<string name="flow_velocity_meaning">The speed in which fluid goes through a given lenght of tubing.</string>
+	<string name="fluid_movement">Fluid Movement</string>
+	<string name="fluid_movement_meaning">Also Known as Osmosis</string>
+	<string name="flush">Flush</string>
+	<string name="flush_meaning">Also known as priming.</string>
+	<string name="formalin">Formalin</string>
+	<string name="formalin_meaning">A trademark name for 37% solution of formaldehyde.</string>
+	
+	<string name="gradient">Gradient</string>
+	<string name="gradient_meaning">A difference , for intance, a concentration gradient is when the concentration of solutes with two fluids are separated by the semipermeable membrane.</string>
+	<string name="graft">Graft</string>
+	<string name="graft_meaning">The artificial peice of artificial vessel that is used to create a vascular access.</string>
+	
+	<string name="heat_disinfection">Heat Disinfection</string>
+	<string name="heat_disinfection_meaning">An alternate method, as opposed to chemicals, used to reprocess dialyzers and other equipments.</string>
+	<string name="hematocrit">Hematocrit</string>
+	<string name="hematocrit_meaning">A measure of red blood cells.</string>
+	<string name="hematoma">Hematoma</string>
+	<string name="hematoma_meaning">A painful, hard, black, and blue collection of blood under the skin that occurs when there is a blood leak from the vessels that goes into the other tissues in the body.</string>
+	<string name="hemodialysis">Hemodialysis</string>
+	<string name="hemodialysis_meaning">The act of cleaning the blood of excess water and waste by using a dialyzer or artificial kidney.</string>
+	<string name="hemodialysis_adequacy">Hemodialysis Adequacy</string>
+	<string name="hemodialysis_adequacy_meaning">The measurement of a dialysis dose to make sure that patients get the recommended amount of treatment necessary for survival.</string>
+	<string name="hemodialysis_delivery_system">Hemodialysis Delivery System</string>
+	<string name="hemodialysis_delivery_system_meaning">A machine that is made up of a dialysate delivery system, safety monitors and a blood pump.</string>
+	<string name="hemoglobin">Hemoglobin</string>
+	<string name="hemoglobin_meaning">The red, oxygen-carrying pigment of all red blood cells.</string>
+	<string name="hemolysis">Hemolysis</string>
+	<string name="hemolysis_meaning">A term that refers to a break or sudden burst of the red blood cells.</string>
+	<string name="heparin">Heparin</string>
+	<string name="heparin_meaning">A blood thinner used in the dialysis to ensure that the blood flows through the extracorporeal circuit without any restriction.</string>
+	<string name="heparin_infusion_line">Heparin Infusion Line</string>
+	<string name="heparin_infusion_line_meaning">This is a small tube extension from the blood tubing.</string>
+	<string name="heparin_pump">Heparin Pump</string>
+	<string name="heparin_pump_meaning">A pump made up of a piston, an electric motor and a syringe holder used to deliver exact amounts of heparin during dialysis.</string>
+    <string name="hepatitis">Hepatitis</string>
+	<string name="hepatitis_meaning">The inflammation of the liver caused by the hepatitis viruses A, B and C. </string>
+	<string name="high_efficiency_dialysis">High_Efficiency Dialysis</string>
+	<string name="high_efficiency_dialysis_meaning">Dialyzers are used during this form of dialysis treatment to remove more small solutes than convertional membranes.</string>
+	<string name="high_flux_dialysis">High Flux Dialysis</string>
+	<string name="high_flux_dialysis_meaning">A permeable membrane used to a broad range of molecular weight solutes.</string>
+	<string name="hippa_voc_meaning">An acronym that stands for the Health Insurance Portability and Accountability Act. All patient\'s information must be kept confidential.</string>
+	<string name="hollow_fiber_dialyzer">Hollow Fiber Dialyzer</string>
+	<string name="hollow_fiber_dialyzer_meaning">A dialyzer with a hollow-fiber design. It contains thousands of small hollow-fiber held in place at each end, and it is encased in a harp plastic cylinder.</string>
+	<string name="homeostasis">Homeostasis</string>
+	<string name="homeostasis_meaning">A state of constant balance kept in the body.</string>
+	<string name="human_immunodeficincy_virus">Human Immunodeficiency Virus (HIV)</string>
+	<string name="human_immunodeficincy_virus_meaning">A virus that disables the body\'s immune system by eliminating the white blood cells, and is transmitted through blodily fluids.</string>
+	<string name="hydraulic_pressure">Hydraulic Pressure</string>
+	<string name="hydraulic_pressure_meaning">The water pressure naturally created or artificially created by a pump.</string>
+	<string name="hydrophobic">Hydrophobic</string>
+	<string name="hydrophobic_meaning">This means water-repellent.</string>
+	<string name="hypercalcemia">Hypercalcemia</string>
+	<string name="hypercalcemia_meaning">This state of having too much calcium in the blood.</string>
+	<string name="hyperglycemia">Hyperglycemia</string>
+	<string name="hyperglycemia_meaning">This means high blood sugar level</string>
+	<string name="hyperkalemia">Hyperkalemia</string>
+	<string name="hyperkalemia_meaning">This state of having too much potassium in the blood.</string>
+	<string name="hypermagnesium">Hypermagnesiuma</string>
+	<string name="hypermagnesium_meaning">This state of having too much magnesium in the blood.</string>
+	<string name="hypernatremia">Hypernatremia</string>
+	<string name="hypernatremia_meaning">This state of having too much sodium in the blood.</string>
+	<string name="hyperphosphathemia">Hyperphosphatemia</string>
+	<string name="hyperphosphathemia_meaning">This state of having too much phosphorous in the blood.</string>
+	<string name="hyperlasia">Hyperlasia</string>
+	<string name="hyperlasia_meaning">The overgrowth of cells.</string>
+	<string name="hypersensitivity">Hypersensitivity</string>
+	<string name="hypersensitivity_meaning">Above normal sensitivity or allergy.</string>
+	<string name="hypertension">Hypertension</string>
+	<string name="hypertension_meaning">High blood pressure.</string>
+	<string name="hypokalemia">Hypokalemia</string>
+	<string name="hypokalemia_meaning">This state of having low level of potassium in the blood.</string>
+	<string name="hyponatremia">Hyponatremia</string>
+	<string name="hyponatremia_meaning">This state of having low level of sodium in the blood.</string>
+	<string name="hypophosphatemia">Hypophosphatemia</string>
+	<string name="hypophosphatemia_meaning">This state of having low level of phosphorous in the blood.</string>
+	<string name="hypotension">Hypotension</string>
+	<string name="hypotension_meaning">Low blood pressure.</string>
+	<string name="hypotonic_dialysate">Hypotonic Dialysate</string>
+	<string name="hypotonic_dialysate_meaning">Dialysate that is diluted with excess amounts of water, which may cause hemolysis.</string>
+	
+	<string name="infection">Infection</string>
+	<string name="infection_meaning">The condition that occurs when the body is attacked by bacteria, virus or any other disease causing organism.</string>
+	<string name="infection_control">Infection Control</string>
+	<string name="infection_control_meaning">Steps that are taken to put a stop to the spread of an infection.</string>
+	<string name="infiltration">Infiltration</string>
+	<string name="infiltration_meaning">An abnormal leakage of substances into the body\'s tissues.</string>
+	<string name="inflamation">Inflammation</string>
+	<string name="inflamation_meaning">When tissue is swollen due to an injury, surgery or infections.</string>
+	<string name="intracellularn">Intracellularn</string>
+	<string name="intracellularn_meaning">This means within the cells.</string>
+	<string name="iron_deficiency">Iron Deficiency</string>
+	<string name="iron_deficiency_meaning">This state where the body is lacks of iron to produce red blood cells.</string>
+	
+	<string name="ktv_voc_meaning">Changes in a patient\'s blood urea level during a dialysis treatment.</string>
+	<string name="kuf">K Uf</string>
+	<string name="kuf_meaning">Known as Coefficient of Ultrafiltration.</string>
+	
+	<string name="metabolism">Metabolism</string>
+	<string name="metabolism_meaning">The chemical process in which substance is broken down or created.</string>
+	<string name="molecule">Molecule</string>
+	<string name="molecule_meaning">The smallest particle in a chemicla element.</string>
+	<string name="morbidity">Morbidity</string>
+	<string name="morbidity_meaning">This state of sickness or illness</string>
+	<string name="mortality">Mortality</string>
+	<string name="mortality_meaning">This means death.</string>
+	
+	<string name="needle_site_rotation">Needle Site Rotation</string>
+	<string name="needle_site_rotation_meaning">This technique used with fistulae and grafts to prevent damage when needles are used too many times in the smae small area.</string>
+	<string name="negative_pressure">Negative Pressure</string>
+	<string name="negative_pressure_meaning">A pressure less than 0 mmHg.</string>
+	<string name="nephrologist">Nephrologist</string>
+	<string name="nephrologist_meaning">A licensed physician with a specialty in kidney disease.</string>
+	<string name="nephrology">Nephrology</string>
+	<string name="nephrology_meaning">The study of the kidney.</string>
+	<string name="nephron">Nephron</string>
+	<string name="nephron_meaning">A tiny blood purification filter in the composed of a tubule and glomerulus.</string>
+	<string name="normal_salin">Normal Saline</string>
+	<string name="normal_salin_meaning">A sterile salt water solution containing 0.9% sodium chloride.</string>
+	
+	<string name="osmosis">Osmosis</string>
+	<string name="osmosis_meaning">The movement of fluid across a semipermeable membrane from one area of lower solute concentration to an area with higher solute concentration.</string>
+    
+	<string name="palpitations">Palpitations</string>
+	<string name="palpitations_meaning">This is the occasional strong hearbeat that can indicate cardiac arrhytmia.</string>
+	<string name="parathyroid_hormone">Parathyroid Hormone (PTH)</string>
+	<string name="parathyroid_hormone_meaning">A hormone created by the four parathyroid glands located in the neck.</string>
+	<string name="panthogen">Pathogen</string>
+	<string name="panthogen_meaning">An agent that causes sickness in humans.</string>
+	<string name="pericarditis">Pericarditis</string>
+	<string name="pericarditis_meaning">This inflammation of the pericardium, a sack that eclose the heart.</string>
+	<string name="permeable">Permeable</string>
+	<string name="permeable_meaning">This means allowing a substance to pass through.</string>
+	<string name="ph_voc_meaning">The hydrogen ion concentration of a solution.</string>
+	<string name="phosphate_binder">Phosphate Binder</string>
+	<string name="phosphate_binder_meaning">Drugs that binds with phosphorous in food so that phosphorous is not absorbed into the intestines.</string>
+	<string name="phosphorus">Phosphorus</string>
+	<string name="phophorus_meaning">A nonmetallic element found in meat, poultry, fish, nuts, peanuts, chocolate, colas and dairy products.</string>
+	<string name="post_dialysis_pressure">Post Dialysis Pressure</string>
+	<string name="post_dialysis_pressure_meaning">Also known as Venouse pressure.</string>
+	<string name="post_pump_arterial_pressure">Post-Pump (Arterial) Pressure</string>
+	<string name="post_pump_arterial_meaning">Also known as Predialyzer Pressure.</string>
+	<string name="potassium">Potassium</string>
+	<string name="potassium_meaning">A metalic element and an essential electrolyte found in the human body.</string>
+	<string name="predialyzer_presssure">Predialyzer pressure</string>
+	<string name="predialyzer_presssure_meaning">The positive pressure after the blood pump and before the dialyzer.</string>
+	<string name="pre_pump_arterial">Hypokalemia</string>
+	<string name="pre_pump_arterial_meaning">This a measured between the patient\'s arterial needle and blood pump.</string>
+	<string name="pressure">Pressure</string>
+	<string name="pressure_meaning">A force pressed against something in contact with an object.</string>
+	<string name="priming">Priming</string>
+	<string name="priming_meaning">This is when the bloodline and dialyzer are prepared for use by flushing them with normal saline.</string>
+	<string name="pruritus">Pruritus</string>
+	<string name="pruritus_meaning">Severe itching</string>
+	<string name="pseudoaneurysm">Pseudoaneurysm</string>
+	<string name="pseudoaneurysm_meaning">A false aneurysm.</string>
+	<string name="pyrogen">Pyrogen</string>
+	<string name="pyrogen_meaning">A fever-producing substance.</string>
+	<string name="pyrogenic_reaction">Pyrogenic Reaction</string>
+	<string name="pyrogenic_meaning">A fever caused by pyrogens.</string>
+	
+	<string name="recirculation">Recirculation</string>
+	<string name="recirculation_meaning">This happens when the dialyzed blood that vcomes back to the patient through the venous needle is mixed with undialyzed blood exiting the arterial needle.</string>
+	<string name="rejection">Rejection</string>
+	<string name="rejection_meaning">This happens when the immune system of the transplant patient attacks the transported organ becuase it is foreign to the body.</string>
+	<string name="reprocessing">Reprocessing</string>
+	<string name="reprocessing_meaning">The process of cleaning and disinfecting the dialyzer and bloodlines, so that they may be used again by the same patient.</string>
+	<string name="reverse_osmosis">Reverse Osmosis (RO)</string>
+	<string name="reverse_osmosis_meaning">The membrane separation process for removing solutes from a solution.</string>
+	<string name="rinseback">Rinseback</string>
+	<string name="rinseback_meaning">The process of utilizing saline to flush the patient\'s blood back into the body after treatment.</string>
+	
+	<string name="saline_infusion">Saline Infusion Line</string>
+	<string name="saline_infusion_meaning">This allows saline to be distributed to the patient during dialysis.</string>
+	<string name="semipermeable_membrane">Semipermeable Membrane</string>
+	<string name="semipermeable_membrane_meaning">The material with microscopic openings or pores.</string>
+	<string name="shunts">Shunts</string>
+	<string name="shunts_meaning">This is a tube that is placed into the body.</string>
+	<string name="sodium">Sodium</string>
+	<string name="sodium_meaning">A chemical element and electrolyte found in the body. </string>
+	<string name="solute">Solute</string>
+	<string name="solute_meaning">A solution which is a combination of a solute and a fluid or a solvent.</string>
+	<string name="solvent">Solvent</string>
+	<string name="solvent_meaning">A fluid where the substance were dissolved.</string>
+	<string name="stenosis">Stenosis</string>
+	<string name="stenosis_meaning">The narrowing of a blood vessel.</string>
+	<string name="stents">Stents</string>
+	<string name="stents_meaning">Small, expanding metal rings that are put inside a fistula or graft that the fistula or graft feeds into, to prevent the lumen from narrowing.</string>
+	<string name="sterilant">Sterilant</string>
+	<string name="sterilant_meaning">A germ-killing substance.</string>
+	<string name="sterile">Sterile</string>
+	<string name="sterile_meaning">The state of being completely free of all living organism, such as bacteria.</string>
+	<string name="systolic">Systolic</string>
+	<string name="systolic_meaning">The pressure found inside the arteries during a hearbeat.</string>
+	
+	<string name="temperature_alarm">Temperature Alarm</string>
+	<string name="temperature_alarm_meaning">This indicates if the dialysate temperature is too high or too low.</string>
+	<string name="thrill">Thrill</string>
+	<string name="thrill_meaning">The vibration of the blood flow through the patients fistula or graft.</string>
+	<string name="thrombolysis">Thrombolysis</string>
+	<string name="thrombolysis_meaning">The process of injecting a drug to dissolve a thrombus</string>
+	<string name="thrombus">Thrombus</string>
+	<string name="thrombus_meaning">A clot formed inside a blood passage or a blood vessel.</string>
+	<string name="tranducer_protectors">Transducer Protectors</string>
+	<string name="tranducer_protectors_meaning">Small plastic caps that contain filters and are used to keep fluid or blood from getting into the pressure monitors on the dialysis machines.</string>
+	<string name="transmembrane_pressure">Transmembrane Pressure(TMP)</string>
+	<string name="transmembrane_pressure_meaning">The average pressure minus the permeate pressure.</string>
+	
+	<string name="ultrafiltration">Ultrafiltration Rate </string>
+	<string name="ultrafiltration_meaning">The rate in which fluid goes from the blood into the dialysate through the semipermeable membrane.</string>
+	<string name="uremia">Uremia</string>
+	<string name="uremia_meaning">The build-up of waste in the blood that happens at the end of kidney failure.</string>
+	
+	<string name="venous_pressure">Venous Pressures</string>
+	<string name="venous_pressure_meaning">This type of pressure measures the extracorporeal blood circuit pressure after the dialyzer and before the blood goes back into the patient\'s body.</string>
+	<string name="virus">Virus</string>
+	<string name="virus_meaning">An infective microorganism that lives off of other living cells.</string>
+	
+	<string name="water_softener">Water Softener</string>
+	<string name="water_softener_meaning">This is used in water treatment to decrease the concentration of  magnesium and calsium that form scale.</string>
+	
+	</resources>

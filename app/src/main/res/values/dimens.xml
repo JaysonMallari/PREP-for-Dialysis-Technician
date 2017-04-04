@@ -2,5 +2,7 @@
 <resources>
     <dimen name="firstFrame">40dp</dimen>
     <dimen name="secondtFrame">20dp</dimen>
+    <dimen name="category_letter">48sp</dimen>
+    <dimen name="list_item_height">88dp</dimen>
 
 </resources>
