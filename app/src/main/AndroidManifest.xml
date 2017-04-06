@@ -40,7 +40,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
         </activity>
-        <activity android:name=".DisplayDescriptionActivity"></activity>
+        <activity
+            android:name=".DisplayDescriptionActivity"
+            android:theme="@style/AppTheme.CustomTheme"
+            ></activity>
     </application>
 
 </manifest>

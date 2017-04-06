@@ -2,9 +2,9 @@ package com.maxmal.www.prepfordialysistechnician;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
-import android.view.MenuItem;
+import android.util.DisplayMetrics;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 public class DisplayDescriptionActivity extends AppCompatActivity {
@@ -12,24 +12,22 @@ public class DisplayDescriptionActivity extends AppCompatActivity {
     private TextView description;
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        super.onOptionsItemSelected(item);
-        switch (item.getItemId()){
-            case android.R.id.home:
-                finish();
-                break;
-        }
-        return true;
-    }
-
-    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display_description);
 
-        // display up button
-        ActionBar actionBar = getSupportActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        //initalize display metric to customize the window size
+        DisplayMetrics displayMetrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(displayMetrics);
+
+        //initialize width and height
+        int width = displayMetrics.widthPixels;
+        int height = displayMetrics.heightPixels;
+
+        //setup the width and height for the window
+        getWindow().setLayout((int)(width*.7),WindowManager.LayoutParams.WRAP_CONTENT);
+
+
 
 
         // get the textviews ID's on where to display our retrieve data

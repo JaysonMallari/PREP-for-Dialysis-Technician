@@ -5,16 +5,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/secondtFrame"
-    android:background="@drawable/gradient_dark"
+    android:orientation="vertical"
     tools:context="com.maxmal.www.prepfordialysistechnician.DisplayDescriptionActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="@android:drawable/dialog_holo_light_frame"
-        >
+
 
         <TextView
             android:id="@+id/meaning_label"
@@ -45,7 +39,6 @@
 
         </ScrollView>
 
-    </LinearLayout>
 
 
 </LinearLayout>
