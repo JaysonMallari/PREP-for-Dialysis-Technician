@@ -4,5 +4,7 @@
     <dimen name="secondtFrame">20dp</dimen>
     <dimen name="category_letter">48sp</dimen>
     <dimen name="list_item_height">88dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="padding_3">3dp</dimen>
 
 </resources>

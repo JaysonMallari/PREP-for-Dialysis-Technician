@@ -16,7 +16,7 @@
         android:layout_toRightOf="@id/initial"
         android:minHeight="@dimen/list_item_height"
         android:orientation="vertical"
-        android:paddingLeft="20dp">
+        android:paddingLeft="@dimen/secondtFrame">
 
         <TextView
             android:id="@+id/main_word"
@@ -28,13 +28,6 @@
     </RelativeLayout>
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="right"
-        android:layout_marginRight="@dimen/secondtFrame"
-        android:src="@drawable/ic_arrow_forward_black_24dp"
-        android:tint="#888888" />
+       style="@style/forward_arrow" />
 
 </RelativeLayout>

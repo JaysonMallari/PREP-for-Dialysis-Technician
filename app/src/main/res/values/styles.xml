@@ -6,7 +6,7 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="actionBarStyle">@style/DialysisAppBarStyle</item>
         <item name="android:windowContentOverlay">@null</item>
-        <item name="android:colorButtonNormal">@color/colorPrimaryDark</item>
+        <item name="android:colorButtonNormal">@color/colorPrimary</item>
     </style>
 
     <!-- App bar style -->
@@ -18,10 +18,10 @@
     <!-- Style for a tab that displays a category name -->
     <style name="CategoryTab" parent="Widget.Design.TabLayout">
         <item name="tabIndicatorColor">@android:color/white</item>
-        <item name="tabSelectedTextColor">@android:color/white</item>
         <item name="android:elevation">10dp</item>
     </style>
 
+    <!-- Main page -->
     <style name="welcomButtons">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">match_parent</item>
@@ -39,7 +39,7 @@
     </style>
 
 
-
+    <!-- List items -->
     <style name="initial_list_item">
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
@@ -56,10 +56,104 @@
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
     </style>
 
+    <style name="forward_arrow">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_marginRight">@dimen/secondtFrame</item>
+        <item name="android:src">@drawable/ic_arrow_forward_black_24dp</item>
+        <item name="android:tint">#888888</item>
+    </style>
+
+    <!--popup -->
+    <style name="popup_bg">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">#ffffff</item>
+        <item name="android:elevation">@dimen/padding_3</item>
+        <item name="android:layout_margin">@dimen/padding_3</item>
+
+    </style>
+
+    <style name="popup_label">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/padding_3</item>
+        <item name="android:text">@string/arbd</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="popup_content">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:text">@string/arbd_meaning</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:padding">@dimen/secondtFrame</item>
+
+    </style>
     <!-- Pop up background -->
     <style name="AppTheme.CustomTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- Test layout-->
+    <style name="test_question">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/secondtFrame</item>
+        <item name="android:background">#302980b9</item>
+        <item name="android:text">Question</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Radio button-->
+    <style name="choices">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:text">this is on of the choices.</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+    </style>
+
+
+    <!--Bottom button -->
+    <style name="bottom_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/secondtFrame</item>
+        <item name="android:textAppearance">?android:textAppearanceLargeInverse</item>
+    </style>
+
+    <style name="next_button" parent="bottom_button">
+        <item name="android:text">Next</item>
+        <item name="android:drawableRight">@drawable/ic_arrow_forward_white_24dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="answer_button">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:src">@drawable/ic_check_white_24dp</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+
+    <style name="answer_label">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textAppearance">?android:textAppearance</item>
+        <item name="android:text">Answer</item>
+        <item name="android:layout_toRightOf">@id/check_answer</item>
+        <item name="android:layout_centerVertical">true</item>
     </style>
 
 </resources>

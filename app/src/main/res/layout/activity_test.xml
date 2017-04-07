@@ -1,9 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient_dark"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/secondtFrame"
     tools:context="com.maxmal.www.prepfordialysistechnician.TestActivity">
 
-</android.support.constraint.ConstraintLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical"
+        android:layout_marginBottom="@dimen/secondtFrame">
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/test_question" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/secondtFrame">
+
+            <RadioButton
+                android:id="@+id/choice_a"
+                style="@style/choices" />
+
+            <RadioButton
+                android:id="@+id/choice_b"
+                style="@style/choices" />
+
+            <RadioButton
+                android:id="@+id/choice_c"
+                style="@style/choices" />
+
+            <RadioButton
+                android:id="@+id/choice_d"
+                style="@style/choices" />
+
+
+        </RadioGroup>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="@dimen/firstFrame"
+            android:paddingLeft="@dimen/firstFrame"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/check_answer"
+                style="@style/answer_button" />
+
+            <TextView
+                style="@style/answer_label"
+                />
+
+            <Button
+                android:id="@+id/next_button"
+                style="@style/next_button" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        style="@style/copywriteText"
+        android:text="@string/copywrite"
+        />
+
+    <TextView
+        style="@style/copywriteText"
+        android:text="@string/app_name"
+        />
+</LinearLayout>
+</ScrollView>

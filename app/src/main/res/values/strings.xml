@@ -763,7 +763,7 @@
 
     <!-- test -->
     <string name="twelve">12. How many months of working experience do you need to have as adviced for you to take the certification exam?</string>
-    <string name="twelveeleven_a">a. 18 months</string>
+    <string name="twelve_a">a. 18 months</string>
     <string name="twelve_b">b. 12 months</string>
     <string name="twelve_c">c. 6 months</string><!-- answer -->
     <string name="twelve_d">d. 3 months</string>
@@ -794,11 +794,11 @@
     <string name="fifteen_ans">The correct answer is A, any inappropriate act or behavior should be notify to the Social Worker, and the social worker should educate the patients on proper manner and act as a dialysis patient.</string>
 
     <!-- test -->
-    <string name="sixteen">16. Select the main function of the kidney. </string><!-- answer -->
+    <string name="sixteen">16. Select the main function of the kidney. </string>
     <string name="sixteen_a">a. Clean and filter the blood.</string>
     <string name="sixteen_b">b. Balance the fluid.</string>
     <string name="sixteen_c">c. Balance the elctrolyte.</string>
-    <string name="sixteen_d">d. All of the above.</string>
+    <string name="sixteen_d">d. All of the above.</string><!-- answer -->
     <string name="sixteen_ans">All the following choice are the main function of the kidneys.</string>
 
      <!-- test -->
@@ -949,8 +949,8 @@
     <!-- test -->
     <string name="thirty5">35. What is hyperkalemia?</string>
     <string name="thirty5_a">a. Low Potassium in the blood.</string>
-    <string name="thirty5_b">b. Low Calcium in the blood.</string><!-- answer -->
-    <string name="thirty5_c">c. High Potassium in the blood.</string>
+    <string name="thirty5_b">b. Low Calcium in the blood.</string>
+    <string name="thirty5_c">c. High Potassium in the blood.</string><!-- answer -->
     <string name="thirty5_d">d. High Calcium in the blood.</string>
     <string name="thirty5_ans">Hyper mean high, and kalemia for potassium, it means above normal potassium. </string>
 
@@ -1018,16 +1018,16 @@
     <string name="fourty3_b">b. Semipermeable membrane </string><!-- answer -->
     <string name="fourty3_c">c. Selective membrane </string>
     <string name="fourty3_d">d. Super Security Filter</string>
-    <string name="fourty3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty3_ans">A semipermeable membrane is a type of biological or synthetic, polymeric membrane that will allow certain molecules or ions to pass through it by diffusion
    </string>
    
    <!-- test -->
     <string name="fourty4">44. What do you call the movements of particles from an area of higher concentration to the area of lower concentration?</string>
-    <string name="fourty4_a">a. Diffusion</string>
-    <string name="fourty4_b">b. Infusion </string><!-- answer -->
+    <string name="fourty4_a">a. Diffusion</string><!-- answer -->
+    <string name="fourty4_b">b. Infusion </string>
     <string name="fourty4_c">c. Filtration </string>
     <string name="fourty4_d">d. Osmosis</string>
-    <string name="fourty4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty4_ans">Diffusion is the net movement of molecules or atoms from a region of high concentration (or high chemical potential) to a region of low concentration (or low chemical potential). 
    </string>
 
    <!-- test -->
@@ -1036,16 +1036,16 @@
     <string name="fourty5_b">b. Negative pressure are created when fluid is pulled through a restriction. </string><!-- answer -->
     <string name="fourty5_c">c. Negative pressure are created when particles are moving in the same directions. </string>
     <string name="fourty5_d">d. Negative pressure are created when particles are moving on different directions.</string>
-    <string name="fourty5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty5_ans">Negative pressure are created when fluid is pulled through a RESTRICTION.
    </string>
    
     <!-- test -->
     <string name="fourty6">46. What do you call the movement of solvent from an area of lower solute to the area of higher solute concentration?</string>
     <string name="fourty6_a">a. Diffusion</string>
-    <string name="fourty6_b">b. Infusion </string><!-- answer -->
-    <string name="fourty6_c">c. Osmosis </string>
+    <string name="fourty6_b">b. Infusion </string>
+    <string name="fourty6_c">c. Osmosis </string><!-- answer -->
     <string name="fourty6_d">d. Filtration</string>
-    <string name="fourty6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty6_ans">Osmosis is the spontaneous net movement of solvent molecules through a semi-permeable membrane into a region of higher solute concentration, in the direction that tends to equalize the solute concentrations on the two sides.
    </string>
    
    <!-- test -->
@@ -1054,32 +1054,32 @@
     <string name="fourty7_b">b. This would cause the solution to separate solute and solvent. </string><!-- answer -->
     <string name="fourty7_c">c. This would make circulation movement with the solution. </string>
     <string name="fourty7_d">d. This would heat up the solution.</string>
-    <string name="fourty7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty7_ans">Hydraulic pressure would cause the solution to separate solute and solvent.
    </string>
    
      <!-- test -->
     <string name="fourty8">48. This is the movement of fluid to the filter, and traps the particles that is too large to pass through.</string>
     <string name="fourty8_a">a. Diffusion</string>
-    <string name="fourty8_b">b. Infusion </string><!-- answer -->
+    <string name="fourty8_b">b. Infusion </string>
     <string name="fourty8_c">c. Osmosis </string>
-    <string name="fourty8_d">d. Filtration</string>
-    <string name="fourty8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty8_d">d. Filtration</string><!-- answer -->
+    <string name="fourty8_ans">Filtration is any of various mechanical, physical or biological operations that separate solids from fluids (liquids or gases) by adding a medium through which only the fluid can pass. 
    </string>
    
      <!-- test -->
     <string name="fourty9">49. What do you call the removal of water from the blood?</string>
-    <string name="fourty9_a">a. Ultrafiltration</string>
-    <string name="fourty9_b">b. Osmosis </string><!-- answer -->
+    <string name="fourty9_a">a. Ultrafiltration</string><!-- answer -->
+    <string name="fourty9_b">b. Osmosis </string>
     <string name="fourty9_c">c. Crenation </string>
     <string name="fourty9_d">d. Solution</string>
-    <string name="fourty9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fourty9_ans">In Dialysis the removal of water from the blood is also called Ultrafiltration.
    </string>
    
      <!-- test -->
     <string name="fifty">50. What is the intravascular fluid compartment?</string>
     <string name="fifty_a">a. Protein inside the blood.</string>
-    <string name="fifty_b">b. Fluid in the cell </string><!-- answer -->
-    <string name="fifty_c">c. Blood inside the blood vessels. </string>
+    <string name="fifty_b">b. Fluid in the cell </string>
+    <string name="fifty_c">c. Blood inside the blood vessels. </string><!-- answer -->
     <string name="fifty_d">d. Vanish</string>
     <string name="fifty_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
    </string>
@@ -1090,43 +1090,43 @@
     <string name="fifty1_b">b. Fewer</string><!-- answer -->
     <string name="fifty1_c">c. Remain the same</string>
     <string name="fifty1_d">d. None of the above</string>
-    <string name="fifty1_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty1_ans">We are cleaning the blood of the dialysis patient during their treatment. The waste should be fewer after the dialysis treatment.
    </string>
    
     <!-- test -->
     <string name="fifty2">52. Which of the following are the extracorporeal circuit?</string>
-    <string name="fifty2_a">a. Dialyzer and blood lines.</string>
-    <string name="fifty2_b">b. Vein and artery </string><!-- answer -->
+    <string name="fifty2_a">a. Bloodlines and dialyzer</string><!-- answer -->
+    <string name="fifty2_b">b. Vein and artery </string>
     <string name="fifty2_c">c. Blood and cells </string>
     <string name="fifty2_d">d. None of the above</string>
-    <string name="fifty2_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty2_ans">Extracorporeal circuit is the apparatus carrying the blood outside the body. On Dialysis treatment we have the (1)bloodlines which carries the blood to the (2)dialyzer to be filter and return it back to the patient\'s blood vessel.
    </string>
    
     <!-- test -->
     <string name="fifty3">53. What are the two compartment that each dialyzer has</string>
     <string name="fifty3_a">a. Cortex and Calyx</string>
-    <string name="fifty3_b">b. Diffusion and Absorption </string><!-- answer -->
-    <string name="fifty3_c">c. Dialysate and blood </string>
+    <string name="fifty3_b">b. Diffusion and Absorption </string>
+    <string name="fifty3_c">c. Dialysate and blood </string><!-- answer -->
     <string name="fifty3_d">d. Potassium and Sodium</string>
-    <string name="fifty3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty3_ans">There is two compartment in the dialyzer, one is for the dialysate and the other one is for the blood.
    </string>
    
     <!-- test -->
     <string name="fifty4">54. What is Anaphylaxis?</string>
-    <string name="fifty4_a">a. Life threatening allergies.</string>
-    <string name="fifty4_b">b. Inflammation around the heart. </string><!-- answer -->
+    <string name="fifty4_a">a. Life threatening allergies.</string><!-- answer -->
+    <string name="fifty4_b">b. Inflammation around the heart. </string>
     <string name="fifty4_c">c. Nerve blocked. </string>
     <string name="fifty4_d">d. Continouos Itching.</string>
-    <string name="fifty4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty4_ans">Anaphylaxis is a serious allergic reaction that is rapid in onset and may cause death.
    </string>
    
     <!-- test -->
     <string name="fifty5">55. Which are the characteristic of the dialyzer?</string>
-    <string name="fifty5_a">a. Clea and biocompatability.</string>
-    <string name="fifty5_b">b. Molecular weight cut off and surface area. </string><!-- answer -->
+    <string name="fifty5_a">a. Clear and biocompatability.</string>
+    <string name="fifty5_b">b. Molecular weight cut off and surface area. </string>
     <string name="fifty5_c">c. Mass transfer coefficient and clearance. </string>
-    <string name="fifty5_d">d. All of the above</string>
-    <string name="fifty5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty5_d">d. All of the above</string><!-- answer -->
+    <string name="fifty5_ans">All the listed choices are characteristic of the dialyzer.
    </string>
    
     <!-- test -->
@@ -1135,52 +1135,52 @@
     <string name="fifty6_b">b. Capacity </string><!-- answer -->
     <string name="fifty6_c">c. Mass transfer coefficient </string>
     <string name="fifty6_d">d. Molecular weight cut off</string>
-    <string name="fifty6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty6_ans">Capacity is NOT characteristic of the dialyzer.
    </string>
    
 	 <!-- test -->
     <string name="fifty7">57. Which of the following is the way to removes solute?</string>
     <string name="fifty7_a">a. Absorption.</string>
-    <string name="fifty7_b">b. Diffusion </string><!-- answer -->
+    <string name="fifty7_b">b. Diffusion </string>
     <string name="fifty7_c">c. Convection </string>
-    <string name="fifty7_d">d. All of the above</string>
-    <string name="fifty7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty7_d">d. All of the above</string><!-- answer -->
+    <string name="fifty7_ans">All the listed choices are process to removes solute from a solution.
    </string>
    
     <!-- test -->
     <string name="fifty8">58. What do you call the clear plastic cylinder that has a thousands of fiber tubes as thin as hair strands?</string>
     <string name="fifty8_a">a. Wooden wheel dialyzer</string>
-    <string name="fifty8_b">b. Dialysate </string><!-- answer -->
-    <string name="fifty8_c">c. Hollow fiber dialyzer </string>
+    <string name="fifty8_b">b. Dialysate </string>
+    <string name="fifty8_c">c. Hollow fiber dialyzer </string><!-- answer -->
     <string name="fifty8_d">d. Coil dialyzer</string>
-    <string name="fifty8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty8_ans">Hollow fiber dialyzer is a plastic cylinder with thousands of fiber tubes as thin as hair strands.
    </string>
 
     <!-- test -->
     <string name="fifty9">59. What kind of substance is removed by dialysate from the patient\'s blood?</string>
     <string name="fifty9_a">a. Creatinine</string>
-    <string name="fifty9_b">b. Potassium </string><!-- answer -->
+    <string name="fifty9_b">b. Potassium </string>
     <string name="fifty9_c">c. Sodium </string>
-    <string name="fifty9_d">d. All of the above</string>
-    <string name="fifty9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty9_d">d. All of the above</string><!-- answer -->
+    <string name="fifty9_ans">All the listed substance from the choices are being remove by the dialysate during the dialysis treatment.
    </string>
    
     <!-- test -->
-    <string name="sixty">60. What kind of substance is replaced by dialysate for the patient\'s body pH balance?</string>
-    <string name="sixty_a">a. Calcium and bicarbonate.</string>
-    <string name="sixty_b">b. Sodium and Potassium </string><!-- answer -->
+    <string name="sixty">60. What kind of substance are being replaced by dialysate for the patient\'s body pH balance during the dialysis treatment?</string>
+    <string name="sixty_a">a. Calcium and bicarbonate.</string><!-- answer -->
+    <string name="sixty_b">b. Sodium and Potassium </string>
     <string name="sixty_c">c. Magnesium and potassium </string>
     <string name="sixty_d">d. Magnesium and Sodium</string>
-    <string name="sixty_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty_ans">Dialysis is replacing Calcium and Bicarbonate as well during the dialysis treatment.
    </string>
    
    <!-- test -->
     <string name="sixty1">61. What is Dialysate Conductivity</string>
     <string name="sixty1_a">a. Dialysate gets too hot.</string>
-    <string name="sixty1_b">b. Total number of solution per liter.</string><!-- answer -->
+    <string name="sixty1_b">b. Total number of solution per liter.</string>
     <string name="sixty1_c">c. Dialysate gets too cold. </string>
-    <string name="sixty1_d">d. Total elctric charge of a solution.</string>
-    <string name="sixty1_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty1_d">d. Total elctric charge of a solution.</string><!-- answer -->
+    <string name="sixty1_ans">Dialysate Conductivity is the total elctric charge of a solution.
    </string>
    
    <!-- test -->
@@ -1189,52 +1189,52 @@
     <string name="sixty2_b">b. Hemolysis </string><!-- answer -->
     <string name="sixty2_c">c. Hypertension </string>
     <string name="sixty2_d">d. Hypokalemia</string>
-    <string name="sixty2_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty2_ans"> Hot temperature of dialysate will burst red blood cell and will cause Hemolysis.
    </string>
    
    <!-- test -->
     <string name="sixty3">63. Name two types of Ultrafiltration system:</string>
     <string name="sixty3_a">a. Numeric UFR control and TMP flow control.</string>
-    <string name="sixty3_b">b. TMP control and flow rate control.</string><!-- answer -->
-    <string name="sixty3_c">c. Flow control and volumetric UF control </string>
+    <string name="sixty3_b">b. TMP control and flow rate control.</string>
+    <string name="sixty3_c">c. Flow control and volumetric UF control </string><!-- answer -->
     <string name="sixty3_d">d. System control and UFR control.</string>
-    <string name="sixty3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty3_ans">The types of Ultrafiltration system are Flow control and volumetric UF control.
    </string>
    
    <!-- test -->
     <string name="sixty4">64. Which of the following is a component of extracorporeal circuit?</string>
     <string name="sixty4_a">a. Heparin infusion line.</string>
-    <string name="sixty4_b">b. Blood pump </string><!-- answer -->
+    <string name="sixty4_b">b. Blood pump </string>
     <string name="sixty4_c">c. Drip chamber </string>
-    <string name="sixty4_d">d. All of the above.</string>
-    <string name="sixty4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty4_d">d. All of the above.</string><!-- answer -->
+    <string name="sixty4_ans"> All the listed choices are component of extracorporeal circuit.
    </string>
    
    <!-- test -->
     <string name="sixty5">65. Which of the following is a device inside the dialysis machine that converts air pressure into an electronic signals?</string>
-    <string name="sixty5_a">a. Transducer protector</string>
-    <string name="sixty5_b">b. Flow pump 1 and flow pump 2 </string><!-- answer -->
+    <string name="sixty5_a">a. Transducer protector</string><!-- answer -->
+    <string name="sixty5_b">b. Flow pump 1 and flow pump 2 </string>
     <string name="sixty5_c">c. Balance chamber </string>
     <string name="sixty5_d">d. UF pump</string>
-    <string name="sixty5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty5_ans">Transducer protector is a device inside the dialysis machine that converts air pressure into an electronic signals.
    </string>
    
    <!-- test -->
-    <string name="sixty6">66. Dialysate has back-up monitoring for delivery system, nut it is still critical that:</string>
+    <string name="sixty6">66. Dialysate has back-up monitoring for delivery system, but it is still critical that:</string>
     <string name="sixty6_a">a. Check all alarm system before each treatment.</string>
-    <string name="sixty6_b">b. Check conductivity and pH level before each treatement. </string><!-- answer -->
+    <string name="sixty6_b">b. Check conductivity and pH level before each treatement. </string>
     <string name="sixty6_c">c. Calibrate the monitoring system on the schedule suggested by the manufacturer. </string>
-    <string name="sixty6_d">d. All of the above.</string>
-    <string name="sixty6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty6_d">d. All of the above.</string><!-- answer -->
+    <string name="sixty6_ans">We should do all the following procedure before initiating dialysis treatement with the patient.
    </string>
    
    <!-- test -->
     <string name="sixty7">67. Which of the following is part of delivery system monitors?</string>
     <string name="sixty7_a">a. Arterial pressure</string>
-    <string name="sixty7_b">b. Temperature</string><!-- answer -->
-    <string name="sixty7_c">c. Conductivity </string>
-    <string name="sixty7_d">d.Flow rate</string>
-    <string name="sixty7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty7_b">b. Temperature</string>
+    <string name="sixty7_c">c. Conductivity </string><!-- answer -->
+    <string name="sixty7_d">d. Flow rate</string>
+    <string name="sixty7_ans">Conductivity is part of delivery system monitors.
    </string>
    
    <!-- test -->
@@ -1243,14 +1243,14 @@
     <string name="sixty8_b">b. Venous pressure</string><!-- answer -->
     <string name="sixty8_c">c. Arterial pressure </string>
     <string name="sixty8_d">d. Postdialyzer pressure</string>
-    <string name="sixty8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="sixty8_ans"> Venous pressure is POSITIVE pressure.
    </string>
    
    <!-- test -->
-    <string name="sixty9">69. Which of the following is Positive pressure?</string>
+    <string name="sixty9">69. Which of the following is Negative pressure?</string>
     <string name="sixty9_a">a. Arterial and Venous pressure</string>
-    <string name="sixty9_b">b. Venous pressure</string><!-- answer -->
-    <string name="sixty9_c">c. Arterial pressure </string>
+    <string name="sixty9_b">b. Venous pressure</string>
+    <string name="sixty9_c">c. Arterial pressure </string><!-- answer -->
     <string name="sixty9_d">d. Predialyzer pressure</string>
     <string name="sixty9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
    </string>
@@ -1258,74 +1258,74 @@
    
       <!-- test -->
     <string name="seventy">70. What type of access is recommended to the patient\'s when the blood vessel is in good condition?</string>
-	<string name="seventy_a">a. Arteriovenous Fistula</string>
-    <string name="seventy_b">b. Catheter</string><!-- answer -->
+	<string name="seventy_a">a. Arteriovenous Fistula</string><!-- answer -->
+    <string name="seventy_b">b. Catheter</string>
     <string name="seventy_c">c. Graft </string>
     <string name="seventy_d">d. None of the above.</string>
-    <string name="seventy_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy_ans">Arteriovenous Fistula is the recommended access for the patient\'s with the good condition blood vessel.
    </string>
    
     <!-- test -->
     <string name="seventy1">71. What type of access is recommended to the patient\'s when the blood vessel is NOT suited to create Fistula?</string>
 	<string name="seventy1_a">a. Arteriovenous Fistula</string>
-    <string name="seventy1_b">b. Catheter</string><!-- answer -->
-    <string name="seventy1_c">c. Graft </string>
+    <string name="seventy1_b">b. Catheter</string>
+    <string name="seventy1_c">c. Graft </string><!-- answer -->
     <string name="seventy1_d">d. None of the above.</string>
-    <string name="seventy1_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy1_ans">Graft is the recommended access for the patient\'s that is NOT suited for Fistula.
    </string>
    
     <!-- test -->
-    <string name="seventy2">72. What do you call th e plastic tube that is placed in ther chest central vein, it is usually used while waiting for fistula or graft to be mature?</string>
+    <string name="seventy2">72. What do you call the plastic tube that is placed in the chest central vein, it is usually used while waiting for fistula or graft to be mature?</string>
 	<string name="seventy2_a">a. Arteriovenous Fistula</string>
     <string name="seventy2_b">b. Catheter</string><!-- answer -->
     <string name="seventy2_c">c. Graft </string>
     <string name="seventy2_d">d. None of the above.</string>
-    <string name="seventy2_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy2_ans">Catheter is the plastic tube that is placed in the chest central vein.
    </string>
    
     <!-- test -->
     <string name="seventy3">73. How many months is the usaul wait for an AVF to be strong enough to be used on large guage needle?</string>
 	<string name="seventy3_a">a. 4-8 months</string>
-    <string name="seventy3_b">b. 6-9 months</string><!-- answer -->
+    <string name="seventy3_b">b. 6-9 months</string>
     <string name="seventy3_c">c. 6-12 months </string>
-    <string name="seventy3_d">d. 1-3 months</string>
-    <string name="seventy3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy3_d">d. 1-3 months</string><!-- answer -->
+    <string name="seventy3_ans">1-3 months is the usaul wait for an AVF to be strong enough to be used on large guage needle.
    </string>
    
     <!-- test -->
     <string name="seventy4">74. Which of the following needs to be felt on the fistula or graft before the cannulation?</string>
-	<string name="seventy4_a">a. Thrill</string>
-    <string name="seventy4_b">b. Stenosis</string><!-- answer -->
+	<string name="seventy4_a">a. Thrill</string><!-- answer -->
+    <string name="seventy4_b">b. Stenosis</string>
     <string name="seventy4_c">c. Bruit </string>
     <string name="seventy4_d">d. Infiltration</string>
-    <string name="seventy4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy4_ans">We should feel the Thrill before initiaing the cannulattion.
    </string>
    
     <!-- test -->
     <string name="seventy5">75. Which of the following needs to be heard on the fistula or graft using stethoscopes before the cannulation?</string>
 	<string name="seventy5_a">a. Thrill</string>
-    <string name="seventy5_b">b. Stenosis</string><!-- answer -->
-    <string name="seventy5_c">c. Bruit </string>
+    <string name="seventy5_b">b. Stenosis</string>
+    <string name="seventy5_c">c. Bruit </string><!-- answer -->
     <string name="seventy5_d">d. Infiltration</string>
-    <string name="seventy5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy5_ans">Bruit is the shooshing sound we supposed to hear from the working access using the stethoscope.
    </string>
    
    <!-- test -->
-    <string name="seventy6">76. Which of the following complication can occur by flipping the needle in AVF cannulation?</string>
+    <string name="seventy6">76. Which of the following complication can occur by flipping the needle during the AVF cannulation?</string>
 	<string name="seventy6_a">a. Thrombosis</string>
     <string name="seventy6_b">b. Infiltration</string><!-- answer -->
     <string name="seventy6_c">c. Steal Syndrome </string>
     <string name="seventy6_d">d. Stenosis</string>
-    <string name="seventy6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy6_ans">Infiltration can be occur by flipping the needle during the AVF cannulation.
    </string>
    
    <!-- test -->
     <string name="seventy7">77. Which of the following is the right direction for how the venous needle should be placed?</string>
-	<string name="seventy7_a">a. Retrograde</string>
-    <string name="seventy7_b">b. Into the direction of the blood flow</string><!-- answer -->
-    <string name="seventy7_c">c. Antegrade </string>
+	<string name="seventy7_a">a. Retrograde Cannulation</string>
+    <string name="seventy7_b">b. Into the direction of the blood flow</string>
+    <string name="seventy7_c">c. Antegrade Cannulation </string><!-- answer -->
     <string name="seventy7_d">d. Opposite direction of the blood flow</string>
-    <string name="seventy7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy7_ans">Antegrade cannulation is the direction pointing up to the shoulder, and it is the recommended direction.
    </string>
    
    <!-- test -->
@@ -1334,25 +1334,25 @@
     <string name="seventy8_b">b. Rotating needle sites</string><!-- answer -->
     <string name="seventy8_c">c. Antegrade </string>
     <string name="seventy8_d">d. Retrograde</string>
-    <string name="seventy8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy8_ans">Rotating needle sites is the BEST practice to prevent anuerysms.
    </string>
    
    <!-- test -->
     <string name="seventy9">79. Which of the following describes infiltration?</string>
 	<string name="seventy9_a">a. Not enough blood flow inside the blood vessel.</string>
     <string name="seventy9_b">b. Air in the patient\'s blood stream.</string><!-- answer -->
-    <string name="seventy9_c">c. Needle that puncture the vessel that cause the blood escapes into the tissue </string>
+    <string name="seventy9_c">c. Needle that puncture the vessel that cause the blood escapes into the tissue .</string><!-- answer -->
     <string name="seventy9_d">d. Decrease or absence of the pulse on the access.</string>
-    <string name="seventy9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="seventy9_ans">Infiltration occurs when the needle puncture the vessel and cause the blood escapes into the tissue.
    </string>
    
    <!-- test -->
     <string name="eigthy">80. Which of the following is a long term complication of fistula?</string>
 	<string name="eigthy_a">a. Recirculation</string>
-    <string name="eigthy_b">b. Stenosis</string><!-- answer -->
+    <string name="eigthy_b">b. Stenosis</string>
     <string name="eigthy_c">c. Steal Syndrome </string>
-    <string name="eigthy_d">d. Thrombosis</string>
-    <string name="eigthy_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy_d">d. Thrombosis</string><!-- answer -->
+    <string name="eigthy_ans">Thrombosis is a long term complication of the fistula.
    </string>
    
    <!-- test -->
@@ -1361,53 +1361,52 @@
     <string name="eigthy1_b">b. Pseudoaneurysm</string><!-- answer -->
     <string name="eigthy1_c">c. Stenosis</string>
     <string name="eigthy1_d">d. Infiltration</string>
-    <string name="eigthy1_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy1_ans">Pseudoaneurysm can be occur to the graft access, if the needle is been placing on the same site every single dialysis treatment.
    </string>
    
    <!-- test -->
     <string name="eigthy2">82. How can we prevent the infection of using catheter?</string>
-	<string name="eigthy2_a">a. Wash hands and changes gloves before handling catheter.</string>
-    <string name="eigthy2_b">b. Rotate needle site.</string><!-- answer -->
+	<string name="eigthy2_a">a. Wash hands and changes gloves before handling catheter.</string><!-- answer -->
+    <string name="eigthy2_b">b. Rotate needle site.</string>
     <string name="eigthy2_c">c. Change the catheter dressing </string>
     <string name="eigthy2_d">d. None of the above.</string>
-    <string name="eigthy2_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy2_ans">Washing your hands and changing gloves before handling catheter is the BEST practice to prevent the infection when dealing with the patient\'s that has catheter.
    </string>
    
    <!-- test -->
     <string name="eigthy3">83. Name a step on the catheter pre-dialysis assesment?</string>
 	<string name="eigthy3_a">a. Wash bloodlines before connecting to the catheter.</string>
-    <string name="eigthy3_b">b. Cleaning the catheter site.</string><!-- answer -->
-    <string name="eigthy3_c">c. Saline flushing before connecting the bloodlines. </string>
+    <string name="eigthy3_b">b. Cleaning the catheter site.</string>
+    <string name="eigthy3_c">c. Saline flushing before connecting the bloodlines. </string><!-- answer -->
     <string name="eigthy3_d">d. Dressing replacement before connecting to the bloodlines.</string>
-    <string name="eigthy3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy3_ans">Saline flushing before connecting the bloodlines is one of the PRE assesment for catheter patients.
    </string>
    
    <!-- test -->
-    <string name="eigthy4">84. What is the medical instrument fro measuring the blood pressure?</string>
+    <string name="eigthy4">84. What is the medical instrument for measuring the blood pressure?</string>
 	<string name="eigthy4_a">a. Bloodometer</string>
-    <string name="eigthy4_b">b. Bloodoscope</string><!-- answer -->
+    <string name="eigthy4_b">b. Bloodoscope</string>
     <string name="eigthy4_c">c. Stethoscope</string>
-    <string name="eigthy4_d">d. Sphygmonameter</string>
-    <string name="eigthy4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy4_d">d. Sphygmomanometer</string><!-- answer -->
+    <string name="eigthy4_ans">Sphygmomanometer is the medical instrument that is use for measuring the blood pressure.
    </string>
    
    
    <!-- test -->
     <string name="eigthy5">85. If the patient has a rapid pulse of 108 beats per minute, What does he has?</string>
-	<string name="eigthy5_a">a. Tachycardia</string>
+	<string name="eigthy5_a">a. Tachycardia</string><!-- answer -->
     <string name="eigthy5_b">b. High blood pressure</string><!-- answer -->
     <string name="eigthy5_c">c. Pulseacardia </string>
     <string name="eigthy5_d">d. Low blood pressure</string>
-    <string name="eigthy5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
-   </string>
+    <string name="eigthy5_ans">Tachycardia is a rapid heart rate caused by a problem in the heart\'s electrical system.</string>
    
    <!-- test -->
     <string name="eigthy6">86. What is the normal range for the respiration if the patient is resting?</string>
 	<string name="eigthy6_a">a. 22 to 40 breath per minute.</string>
-    <string name="eigthy6_b">b. 22 to 60 breath per minute.</string><!-- answer -->
-    <string name="eigthy6_c">c. 12 to 20 breath per minute. </string>
+    <string name="eigthy6_b">b. 22 to 60 breath per minute.</string>
+    <string name="eigthy6_c">c. 12 to 20 breath per minute. </string><!-- answer -->
     <string name="eigthy6_d">d. 12 to 80 breath per minute.</string>
-    <string name="eigthy6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy6_ans">12 to 20 breath per minute is the normal range for the respiration of the patient that is resting.
    </string>
    
    <!-- test -->
@@ -1416,43 +1415,42 @@
     <string name="eigthy7_b">b. For every patient that is unable to standup independently.</string><!-- answer -->
     <string name="eigthy7_c">c. For every patient that is complaining fo dizziness </string>
     <string name="eigthy7_d">d. For every patient that is coming from a stretcher</string>
-    <string name="eigthy7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
-   </string>
+    <string name="eigthy7_ans">Stand-and-pivot technique is use for patient that is unable to standup independently.</string>
    
    <!-- test -->
     <string name="eigthy8">88. Which of the following methods will destroy all the bacteria.</string>
 	<string name="eigthy8_a">a. Sterilize</string>
-    <string name="eigthy8_b">b. Sanitation</string><!-- answer -->
+    <string name="eigthy8_b">b. Sanitation</string>
     <string name="eigthy8_c">c. Aseptic</string>
-    <string name="eigthy8_d">d. Disinfection</string>
-    <string name="eigthy8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy8_d">d. Disinfection</string><!-- answer -->
+    <string name="eigthy8_ans">Disinfection are antimicrobial agents that are applied to the surface of non-living objects to destroy microorganisms that are living on the objects.
    </string>
    
    <!-- test -->
-    <string name="eigthy9">89. What is the best way to prevent the spread of infectious diseases in Dialysis clinin?</string>
+    <string name="eigthy9">89. What is the best way to prevent the spread of infectious diseases in Dialysis clinic?</string>
 	<string name="eigthy9_a">a. Wearing gown</string>
-    <string name="eigthy9_b">b. Wearing mask</string><!-- answer -->
-    <string name="eigthy9_c">c. Hand washing </string>
+    <string name="eigthy9_b">b. Wearing mask</string>
+    <string name="eigthy9_c">c. Hand washing </string><!-- answer -->
     <string name="eigthy9_d">d. Wearing gloves</string>
-    <string name="eigthy9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="eigthy9_ans">Hand washing is the BEST way to prevent the spread of infectious diseases in Dialysis clinic.
    </string>
    
    <!-- test -->
     <string name="ninety">90. How can we prevent a needle stick?</string>
-	<string name="ninety_a">a. Throw used needle away into puncture-resistant, color-coded container.</string>
-    <string name="ninety_b">b. Recapping needle as soon as we done using it.</string><!-- answer -->
+	<string name="ninety_a">a. Throw used needle away into puncture-resistant, color-coded container.</string><!-- answer -->
+    <string name="ninety_b">b. Recapping needle as soon as we done using it.</string>
     <string name="ninety_c">c. Wearing multiple gloves. </string>
     <string name="ninety_d">d. Using tourniquet.</string>
-    <string name="ninety_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety_ans">To prevent a needle stick it is a good practice to throw the used needle away into puncture-resistant, color-coded container.
    </string>
    
     <!-- test -->
     <string name="ninety1">91. Why is the extracorporeal circuit needs to be primed first during the machine setup?</string>
 	<string name="ninety1_a">a. To check if there is a leak onto the bloodlines.</string>
-    <string name="ninety1_b">b. To check if there is a blockage onto the bloodlines.</string><!-- answer -->
-    <string name="ninety1_c">c. To remove the air in the bloodlines befor initiating the treatment. </string>
-    <string name="ninety1_d">d. To remove the blood in the bloodlines befor initiating the treatment.</string>
-    <string name="ninety1_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety1_b">b. To check if there is a blockage onto the bloodlines.</string>
+    <string name="ninety1_c">c. To remove the air in the bloodlines before initiating the treatment. </string><!-- answer -->
+    <string name="ninety1_d">d. To remove the blood in the bloodlines before initiating the treatment.</string>
+    <string name="ninety1_ans">Priming the extracorporeal circuit is a pre dialysis steps to remove the air from the bloodlines.
    </string>
    
    <!-- test -->
@@ -1461,16 +1459,16 @@
     <string name="ninety2_b">b. Heparin</string><!-- answer -->
     <string name="ninety2_c">c. Hemolysis </string>
     <string name="ninety2_d">d. Hematoma</string>
-    <string name="ninety2_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety2_ans">Heparin is the medication that is used to prevent the blood clots in the extracorporeal circuit during the Dialysis treatment.
    </string>
    
    <!-- test -->
     <string name="ninety3">93. How can we prevent the air inside our bloodlines during the Dialysis treatment?</string>
 	<string name="ninety3_a">a. Follow the Physician prescribe blood flow.</string>
-    <string name="ninety3_b">b. Use multiple saline bag\'s to prime the lines.</string><!-- answer -->
+    <string name="ninety3_b">b. Use multiple saline bag\'s to prime the lines.</string>
     <string name="ninety3_c">c. Follow the Nurse prescribe blood flow.</string>
-    <string name="ninety3_d">d. Makes sure all the connection are sucured and tight.</string>
-    <string name="ninety3_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety3_d">d. Makes sure all the connection are sucured and tight.</string><!-- answer -->
+    <string name="ninety3_ans">Making sure that all the connection are sucured and tight will prevent the air inside our bloodlines.
    </string>
    
    <!-- test -->
@@ -1479,53 +1477,53 @@
     <string name="ninety4_b">b. Because of too much fluid was removed.</string><!-- answer -->
     <string name="ninety4_c">c. Because the patient was moving a lot during the dialysis treatment. </string>
     <string name="ninety4_d">d. Because the patient did not eat enough before the dialysis treatment.</string>
-    <string name="ninety4_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety4_ans">Too much of fluid removal during the dialysis treatment can cause hypotension to the patient. 
    </string>
    
     <!-- test -->
     <string name="ninety5">95. Why might the dialyzer be reprocessed?</string>
-	<string name="ninety5_a">a. Reprocessing reduced the cost of the Dialysis treatment.</string>
-    <string name="ninety5_b">b. Reprocessing reduced the time of the Dialysis treatment.</string><!-- answer -->
+	<string name="ninety5_a">a. Reprocessing reduced the cost of the Dialysis treatment.</string><!-- answer -->
+    <string name="ninety5_b">b. Reprocessing reduced the time of the Dialysis treatment.</string>
     <string name="ninety5_c">c. Reprocessing reduced the manpower of the Dialysis treatment. </string>
     <string name="ninety5_d">d. Reprocessing increase the function of the kidney.</string>
-    <string name="ninety5_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety5_ans">Reprocessing reduced the cost of the Dialysis treatment.
    </string>
    
      <!-- test -->
     <string name="ninety6">96. What organization is responsible for the dialyzer reprocessing standards and recommendation?</string>
 	<string name="ninety6_a">a. ABMI</string>
-    <string name="ninety6_b">b. ACMI</string><!-- answer -->
-    <string name="ninety6_c">c. AAMI </string>
+    <string name="ninety6_b">b. ACMI</string>
+    <string name="ninety6_c">c. AAMI </string><!-- answer -->
     <string name="ninety6_d">d. AMA</string>
-    <string name="ninety6_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety6_ans">AAMI is the organization that is responsible for the dialyzer reprocessing standards and recommendation.
    </string>
    
      <!-- test -->
     <string name="ninety7">97. What test must be done on a newly reprocessed dialyzer?</string>
 	<string name="ninety7_a">a. CBC - Complete Blood Count.</string>
-    <string name="ninety7_b">b. TCV - Total Cell Volume.</string><!-- answer -->
-    <string name="ninety7_c">c. TBC - Total Blood Count </string>
+    <string name="ninety7_b">b. TCV - Total Cell Volume.</string>
+    <string name="ninety7_c">c. TBC - Total Blood Count </string><!-- answer -->
     <string name="ninety7_d">d. TBT - Total Blood Taken</string>
-    <string name="ninety7_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety7_ans">TBC - Total Blood Count test, is a must to be done for a newly reprocessed dialyzer.
    </string>
    
    
      <!-- test -->
     <string name="ninety8">98. How is the dialyzer reprocessed after the treatment, which of the following is the correct steps order of reprocessing the Dialyzer?</string>
-	<string name="ninety8_a">a. Pre-clean, performance test, dialyzer rejection, disinfection.</string>
-    <string name="ninety8_b">b. Preprocessing, performance test, dialyzer rejection, postprocessing</string><!-- answer -->
+	<string name="ninety8_a">a. Pre-clean, performance test, dialyzer rejection, disinfection.</string><!-- answer -->
+    <string name="ninety8_b">b. Preprocessing, performance test, dialyzer rejection, postprocessing</string>
     <string name="ninety8_c">c. Preprocessing, cleaning, labeling, postprocessing </string>
     <string name="ninety8_d">d. Pre-clean, performance test, dialyzer rejection, labeling, post-clean</string>
-    <string name="ninety8_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety8_ans">Pre-clean, performance test, dialyzer rejection, disinfection are the steps for reprocessing the dialyzer.
    </string>
    
      <!-- test -->
     <string name="ninety9">99. What germicide is used for Dialyzer reprocessing?</string>
 	<string name="ninety9_a">a. Muriatic Acid.</string>
-    <string name="ninety9_b">b. Hydrochloric Acid.</string><!-- answer -->
-    <string name="ninety9_c">c. Peracetic Acid. </string>
+    <string name="ninety9_b">b. Hydrochloric Acid.</string>
+    <string name="ninety9_c">c. Peracetic Acid. </string><!-- answer -->
     <string name="ninety9_d">d. Aceton.</string>
-    <string name="ninety9_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="ninety9_ans">Peracetic Acid is used for Dialyzer reprocessing.
    </string>
    
      <!-- test -->
@@ -1534,22 +1532,22 @@
     <string name="h00_b">b. Total amount of time that the germicide stays in the dialyzer</string><!-- answer -->
     <string name="h00_c">c. Total amount of time that it takes to reprocess the dialyzer </string>
     <string name="h00_d">d. Total amount of time that the dialyzer is been used.</string>
-    <string name="h00_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h00_ans">Contact time means the total amount of time that the germicide stays in the dialyzer.
    </string>
    
      <!-- test -->
     <string name="h001">101. Todays weight:70kg, Dry-weight:66kg, Prime(NS):200ml, Medication fluid:150ml, Rinseback:200ml. How much is the fluid weight that has to be removed during the todays treatment?</string>
 	<string name="h001_a">a. 4,000 ml</string>
-    <string name="h001_b">b. 4,400 ml</string><!-- answer -->
+    <string name="h001_b">b. 4,400 ml</string>
     <string name="h001_c">c. 4,350 ml </string>
-    <string name="h001_d">d. 4,550 ml</string>
-    <string name="h001_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h001_d">d. 4,550 ml</string><!-- answer -->
+    <string name="h001_ans">70,000ml- 66,000ml = 4000ml \n 200ml(prime) + 150ml(meds) + 200ml(rb) = 550ml \n 4000ml + 550ml = 4,550ml.
    </string>
    
     <!-- test -->
     <string name="h002">102. Who must verify the quality control information of AAMI standards, before a dialyzer can be re-used on the patients?</string>
-	<string name="h002_a">a. 2 people, and one of them should be the patient.</string>
-    <string name="h002_b">b. 3 people, 2 nurses and a biomed.</string><!-- answer -->
+	<string name="h002_a">a. 2 people, and one of them should be the patient.</string><!-- answer -->
+    <string name="h002_b">b. 3 people, 2 nurses and a biomed.</string>
     <string name="h002_c">c. 2 people, a nurse and a biomed. </string>
     <string name="h002_d">d. 3 people, 2 nurses and a pct.</string>
     <string name="h002_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
@@ -1558,10 +1556,10 @@
     <!-- test -->
     <string name="h003">103. Why might bacteria contamination occur in the reprocessed dialyzer?</string>
 	<string name="h003_a">a. Improper used of heat.</string>
-    <string name="h003_b">b. Improper used of critic acid</string><!-- answer -->
-    <string name="h003_c">c. Improper used of germicide </string>
+    <string name="h003_b">b. Improper used of critic acid</string>
+    <string name="h003_c">c. Improper used of germicide </string><!-- answer -->
     <string name="h003_d">d. None of the above</string>
-    <string name="h003_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h003_ans">Improper used of germicide might cause bacteria contamination on the reprocessed dialyzer.
    </string>
    
     <!-- test -->
@@ -1570,34 +1568,34 @@
     <string name="h004_b">b. Dialyzer is less than 80% of the original bundle volume,aesthetic appearance</string><!-- answer -->
     <string name="h004_c">c. Dialyzer was exposed to high potassium blood. </string>
     <string name="h004_d">d. Dialyzer was exposed to low potassium blood.</string>
-    <string name="h004_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h004_ans">Dialyzer is less than 80% of the original bundle volume,aesthetic appearance can be rejected.
    </string>
    
     <!-- test -->
     <string name="h005">105. Why is the water that is use for dialysate has to be trated?</string>
-	<string name="h005_a">a. Because the patients  are exposed to large amount of water during the Dialysis treatment.</string>
-    <string name="h005_b">b. Because the patients are only allow to dring treated water.</string><!-- answer -->
+	<string name="h005_a">a. Because the patients  are exposed to large amount of water during the Dialysis treatment.</string><!-- answer -->
+    <string name="h005_b">b. Because the patients are only allow to dring treated water.</string>
     <string name="h005_c">c. Because the patients are able to excrete contaminants in dialysate </string>
     <string name="h005_d">d. None of the above</string>
-    <string name="h005_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h005_ans">During the Dialysis Treament each patient\'s are exposed to large amount of water.
    </string>
    
     <!-- test -->
     <string name="h006">106. Patient came with 4kg above the dry weigth, the blood lines aare prime with 200ml of Normal Saline and rinseback is 200ml. If the treatment is 4 hours, what is the UF rate per hour in ml?</string>
 	<string name="h006_a">a. 1000 ml</string>
-    <string name="h006_b">b. 1200 ml</string><!-- answer -->
-    <string name="h006_c">c. 1100 ml </string>
+    <string name="h006_b">b. 1200 ml</string>
+    <string name="h006_c">c. 1100 ml </string><!-- answer -->
     <string name="h006_d">d. 1400 ml</string>
-    <string name="h006_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h006_ans">4000ml + 200ml(prime) + 200ml(rb) = 4400ml \n 4400ml \u00f7 4(hrs) = 1100ml/hr
    </string>
    
     <!-- test -->
     <string name="h007">107. What substance makes the drinking water clearer?</string>
 	<string name="h007_a">a. Chlorine</string>
-    <string name="h007_b">b. Bleach</string><!-- answer -->
+    <string name="h007_b">b. Bleach</string>
     <string name="h007_c">c. Calcium </string>
-    <string name="h007_d">d. Alum</string>
-    <string name="h007_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h007_d">d. Alum</string><!-- answer -->
+    <string name="h007_ans">Alum is the substance makes the drinking water clearer.
    </string>
    
     <!-- test -->
@@ -1606,52 +1604,52 @@
     <string name="h008_b">b. It removes magnesium and calcium from the water.</string><!-- answer -->
     <string name="h008_c">c. It adds magnesium and calcium to the water. </string>
     <string name="h008_d">d. It removes sodium and potassium from the water.</string>
-    <string name="h008_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h008_ans">The purpose of water softener is to remove magnesium and calcium from the water.
    </string>
    
     <!-- test -->
     <string name="h009">109. Which of the following is the universal solvent?</string>
 	<string name="h009_a">a. Alcohol</string>
-    <string name="h009_b">b. Methanol</string><!-- answer -->
-    <string name="h009_c">c. Water </string>
+    <string name="h009_b">b. Methanol</string>
+    <string name="h009_c">c. Water </string><!-- answer -->
     <string name="h009_d">d. Acetone</string>
-    <string name="h009_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h009_ans">Water is the universal solvent.
    </string>
    
     <!-- test -->
     <string name="h0010">110. The most common method in which water treatment system is disinfected with what?</string>
 	<string name="h0010_a">a. Purified water</string>
-    <string name="h0010_b">b. Vinegar</string><!-- answer -->
+    <string name="h0010_b">b. Vinegar</string>
     <string name="h0010_c">c. Heat </string>
-    <string name="h0010_d">d. Bleach</string>
-    <string name="h0010_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0010_d">d. Bleach</string><!-- answer -->
+    <string name="h0010_ans">Bleach is the most common method to disinfected the water treatment system.
    </string>
    
     <!-- test -->
     <string name="h0011">111. Which of the following best describes the blending valve?</string>
-	<string name="h0011_a">a. Mixing the hot and cold water to achieve the temperature goal.</string>
-    <string name="h0011_b">b. Mixing solute and solvent to create a solution.</string><!-- answer -->
+	<string name="h0011_a">a. Mixing the hot and cold water to achieve the temperature goal.</string><!-- answer -->
+    <string name="h0011_b">b. Mixing solute and solvent to create a solution.</string>
     <string name="h0011_c">c. Mixing bicarb and water to achive the ideal pH level. </string>
     <string name="h0011_d">d. Mixing calcium and magnesium to the water.</string>
-    <string name="h0011_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0011_ans">Blending valve mixed the hot and cold water to achieve the temperature goal.
    </string>
    
     <!-- test -->
     <string name="h0012">112. What is the standard temperature of the water that is use in dialysis?</string>
 	<string name="h0012_a">a. 55\u2109</string>
-    <string name="h0012_b">b. 66\u2109</string><!-- answer -->
-    <string name="h0012_c">c. 77\u2109 </string>
+    <string name="h0012_b">b. 66\u2109</string>
+    <string name="h0012_c">c. 77\u2109 </string><!-- answer -->
     <string name="h0012_d">d. 122\u2109</string>
-    <string name="h0012_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0012_ans">77\u2109 is the standard temperature of the water that is use in dialysis.
    </string>
    
    <!-- test -->
     <string name="h0013">113. What will happen if the temperature is colder than the standard water temperature for the dialysis treatment?</string>
 	<string name="h0013_a">a. It is possible that the patient\'s blood will be frozen during the dialysis treatment.</string>
-    <string name="h0013_b">b. It will make the patient\'s feel\'s cold and the treatment might end earlier than the prescribe time.</string><!-- answer -->
+    <string name="h0013_b">b. It will make the patient\'s feel\'s cold and the treatment might end earlier than the prescribe time.</string>
     <string name="h0013_c">c. It will increase the efficiency of the treatment.  </string>
-    <string name="h0013_d">d. It will decrease the efficiency of the treatment.</string>
-    <string name="h0013_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0013_d">d. It will decrease the efficiency of the treatment.</string><!-- answer -->
+    <string name="h0013_ans">If the water is too cold, it will decrease the efficiency of the treatment.
    </string>
    
    <!-- test -->
@@ -1660,70 +1658,70 @@
     <string name="h0014_b">b. It will damage the red blood cells and will cause hemolysis.</string><!-- answer -->
     <string name="h0014_c">c. It will boil the water, and will cause the water to evaporate that leads to water shortage. </string>
     <string name="h0014_d">d. It will not affect anything at all.</string>
-    <string name="h0014_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0014_ans">If the water is too hot, it will damage the red blood cells and will cause hemolysis.
    </string>
    
    <!-- test -->
     <string name="h0015">115. If the water is contaminated by bacteria/endotoxin, which of the following may it cause?</string>
 	<string name="h0015_a">a. HIV</string>
-    <string name="h0015_b">b. Hepatitis A, B and C</string><!-- answer -->
-    <string name="h0015_c">c. Pyrogenic </string>
+    <string name="h0015_b">b. Hepatitis A, B and C</string>
+    <string name="h0015_c">c. Pyrogenic </string><!-- answer -->
     <string name="h0015_d">d. Osteoporosis</string>
-    <string name="h0015_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0015_ans">Water that is contaminated by bacteria/endotoxin, will cause Pyrogenic.
    </string>
    
    <!-- test -->
     <string name="h0016">116. When should the RO operating parameters should be check?</string>
-	<string name="h0016_a">a. Daily</string>
-    <string name="h0016_b">b. Weekly</string><!-- answer -->
+	<string name="h0016_a">a. Daily</string><!-- answer -->
+    <string name="h0016_b">b. Weekly</string>
     <string name="h0016_c">c. Monthly </string>
     <string name="h0016_d">d. Yearly</string>
-    <string name="h0016_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0016_ans">RO operating parameters should be check Daily.
    </string>
    
    <!-- test -->
     <string name="h0017">117. How much post softener hardness is acceptable?</string>
 	<string name="h0017_a">a. 2.5 grain/gallon</string>
-    <string name="h0017_b">b. 2.0 grain/gallon</string><!-- answer -->
+    <string name="h0017_b">b. 2.0 grain/gallon</string>
     <string name="h0017_c">c. 1.3 grain/gallon </string>
-    <string name="h0017_d">d. 0.8 grain/gallon</string>
-    <string name="h0017_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0017_d">d. 0.8 grain/gallon</string><!-- answer -->
+    <string name="h0017_ans">The acceptable post softener hardness is 0.8 grain/gallon.
    </string>
    
    <!-- test -->
     <string name="h0018">118. How often should the bacteriologic testing for dialysate take place according to AAMI Standards?</string>
 	<string name="h0018_a">a. Daily</string>
-    <string name="h0018_b">b. Weekly</string><!-- answer -->
-    <string name="h0018_c">c. Monthly </string>
+    <string name="h0018_b">b. Weekly</string>
+    <string name="h0018_c">c. Monthly </string><!-- answer -->
     <string name="h0018_d">d. Yearly</string>
-    <string name="h0018_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0018_ans">According to AAMI Standards, the bacteriologic testing for dialysate should be done  Monthly.
    </string>
    
    <!-- test -->
     <string name="h0019">119. As stated in AAMI standard, microbal count of dialysate cannot exceed on which of the following?</string>
 	<string name="h0019_a">a. 2000 CFU/ml</string>
-    <string name="h0019_b">b. 1500 CFU/ml</string><!-- answer -->
+    <string name="h0019_b">b. 1500 CFU/ml</string>
     <string name="h0019_c">c. 750 CFU/ml </string>
-    <string name="h0019_d">d. 200 CFU/ml</string>
-    <string name="h0019_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0019_d">d. 200 CFU/ml</string><!-- answer -->
+    <string name="h0019_ans">As stated in AAMI standard, microbal count of dialysate shoul not exceed of 200 CFU/ml.
    </string>
    
    <!-- test -->
     <string name="h0020">120. As stated in AAMI standard, endotoxin count of dialysate cannot exceed on which of the following?</string>
 	<string name="h0020_a">a. 6 EU/ml</string>
-    <string name="h0020_b">b. 4 EU/ml</string><!-- answer -->
-    <string name="h0020_c">c. 2 EU/ml </string>
+    <string name="h0020_b">b. 4 EU/ml</string>
+    <string name="h0020_c">c. 2 EU/ml </string><!-- answer -->
     <string name="h0020_d">d. 1 EU/ml</string>
-    <string name="h0020_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0020_ans">As stated in AAMI standard, endotoxin count of dialysate should not exceed of 2 EU/ml.
    </string>
    
    <!-- test -->
     <string name="h0021">121. When should a carbon tank be check for chlorine and chloramine?</string>
-	<string name="h0021_a">a. Before each shift</string>
-    <string name="h0021_b">b. Every day</string><!-- answer -->
+	<string name="h0021_a">a. Before each shift</string><!-- answer -->
+    <string name="h0021_b">b. Every day</string>
     <string name="h0021_c">c. Every week </string>
     <string name="h0021_d">d. Every month</string>
-    <string name="h0021_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0021_ans">The chlorine and chloramine level in the carbon tank should be check Before each shift. 
    </string>
    
    <!-- test -->
@@ -1732,34 +1730,33 @@
     <string name="h0022_b">b. It may cause bone problems to the patient\'s.</string><!-- answer -->
     <string name="h0022_c">c. It may cause liver problems to the patient\'s. </string>
     <string name="h0022_d">d. It may cause pyrogenic to the patient\'s.</string>
-    <string name="h0022_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0022_ans">Large amounts of aluminum in water may cause bone problems to the patient\'s.
    </string>
    
       <!-- test -->
     <string name="h0023">123. We all know that we should prevent air embolism, but what should we do when it occur\'s  during the treatment ?</string>
 	<string name="h0023_a">a. Clamp the venous line.</string>
-    <string name="h0023_b">b. Turn the blood pump off.</string><!-- answer -->
+    <string name="h0023_b">b. Turn the blood pump off.</string>
     <string name="h0023_c">c. Put the patient on the left trendelenburg position. </string>
-    <string name="h0023_d">d. All of the above.</string>
-    <string name="h0023_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0023_d">d. All of the above.</string><!-- answer -->
+    <string name="h0023_ans">When air embolism is occur during the dialysis treatment all the listed choices should be done.
    </string>
    
       <!-- test -->
     <string name="h0024">124. Patient is complaining of cramps during the treatment, as a Dialysis Technician what should you do?</string>
-	<string name="h0024_a">a. Notify the nurse and turn the UF off.</string>
-    <string name="h0024_b">b. Notify the nurse and administer sodium variation.</string><!-- answer -->
+	<string name="h0024_a">a. Notify the nurse and turn the UF off.</string><!-- answer -->
+    <string name="h0024_b">b. Notify the nurse and administer sodium variation.</string>
     <string name="h0024_c">c. Notify the nurse and administer oxygen. </string>
     <string name="h0024_d">d. Notify the nurse and increase the UF goal.</string>
-    <string name="h0024_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
-   </string>
+    <string name="h0024_ans">When Patient is complaining of cramps during the treatment, you should notify the nurse and turn the UF off.</string>
    
       <!-- test -->
     <string name="h0025">125. Which of the following will cause hemolysis?</string>
 	<string name="h0025_a">a. Hypotonic Dialysate</string>
-    <string name="h0025_b">b. Bleach.</string><!-- answer -->
+    <string name="h0025_b">b. Bleach.</string>
     <string name="h0025_c">c. Overheated Dialysate. </string>
-    <string name="h0025_d">d. All of the above.</string>
-    <string name="h0025_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0025_d">d. All of the above.</string><!-- answer -->
+    <string name="h0025_ans">All the following choices will cause hemolysis.
    </string>
    
       <!-- test -->
@@ -1768,25 +1765,25 @@
     <string name="h0026_b">b. Notify the nurse and administer oxygen.</string><!-- answer -->
     <string name="h0026_c">c. Notify the nurse and increase the blood flow rate. </string>
     <string name="h0026_d">d. Notify the nurse and administer heparin.</string>
-    <string name="h0026_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0026_ans">When Patient is complaining of shortness of breath during the dialysis treatment, you should notify the nurse and administer oxygen.
    </string>
    
       <!-- test -->
     <string name="h0027">127. Blood leak alarm is occuring during the dialysis treatment, what should you do as the Dialysis Technician?</string>
 	<string name="h0027_a">a. Test the blood leak with the test trip to confirm the blood leak.</string>
-    <string name="h0027_b">b. Do not return the blood if positive with the blood leak test.</string><!-- answer -->
+    <string name="h0027_b">b. Do not return the blood if positive with the blood leak test.</string>
     <string name="h0027_c">c. If is not positive and alarm continues, stop the treatment and setup a different machine. </string>
-    <string name="h0027_d">d. All of the above.</string>
-    <string name="h0027_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0027_d">d. All of the above.</string><!-- answer -->
+    <string name="h0027_ans">When Blood leak alarm is occured during the dialysis treatment, you should do all the listed choices.
    </string>
    
       <!-- test -->
     <string name="h0028">128. Which of the following is high phosphorous food?</string>
 	<string name="h0028_a">a. Banana</string>
-    <string name="h0028_b">b. Cantalope</string><!-- answer -->
-    <string name="h0028_c">c. Dairy product </string>
+    <string name="h0028_b">b. Cantalope</string>
+    <string name="h0028_c">c. Dairy product </string><!-- answer -->
     <string name="h0028_d">d. Milk</string>
-    <string name="h0028_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0028_ans">All dairy product\'s are high in phophorus.
    </string>
    
       <!-- test -->
@@ -1795,16 +1792,16 @@
     <string name="h0029_b">b. Notify the nurse and put the patient on trendelenburg position.</string><!-- answer -->
     <string name="h0029_c">c. Notify the nurse and increase the UF goal.</string>
     <string name="h0029_d">d. Notify the nurse and administer heparin.</string>
-    <string name="h0029_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0029_ans">When the bp drops during the dialysis treatment, you should notify the nurse and put the patient on trendelenburg position.
    </string>
    
       <!-- test -->
     <string name="h0030">130. Base on the previous question, blood remains low and now the patient is complaining of dizziness. What should you do next??</string>
-	<string name="h0030_a">a. Notify the nurse and administer NS.</string>
-    <string name="h0030_b">b. Notify the nurse and increase the blood flow rate even more.</string><!-- answer -->
+	<string name="h0030_a">a. Notify the nurse and administer NS.</string><!-- answer -->
+    <string name="h0030_b">b. Notify the nurse and increase the blood flow rate even more.</string>
     <string name="h0030_c">c. Notify the nurse and again the UF goal. </string>
     <string name="h0030_d">d. Wait until it goes away.</string>
-    <string name="h0030_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="h0030_ans">Upon no improvement on the patients blood pressure you must notify the nurse and administer Normal Saline(NS).
    </string>
    
 

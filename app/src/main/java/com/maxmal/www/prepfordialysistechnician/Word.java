@@ -17,6 +17,8 @@ public class Word {
 
     private int mColorResourceId;
 
+
+
     /** constructor */
     public Word(String initialLetter, int mainWord, int meaningResourceId, int colorResourceId){
         mInitialLetter = initialLetter;
@@ -52,6 +54,55 @@ public class Word {
      */
     public  int getmColorResourceId(){
         return mColorResourceId;
+    }
+
+
+    /** Variables for the test activity*/
+    private int mQuestion;
+    private int mChoiceA;
+    private int mChoiceB;
+    private int mChoiceC;
+    private int mChoiceD;
+    private int mDescription;
+    private int mAnswer;
+
+    /** Constructor for test activity*/
+    public Word(int question, int choiceA, int choiceB, int choiceC, int choiceD, int description, int answer){
+        mQuestion = question;
+        mChoiceA = choiceA;
+        mChoiceB = choiceB;
+        mChoiceC = choiceC;
+        mChoiceD = choiceD;
+        mDescription = description;
+        mAnswer = answer;
+    }
+
+    public int getmQuestion(){
+        return mQuestion;
+    }
+
+    public int getmChoiceA(){
+        return mChoiceA;
+    }
+
+    public int getmChoiceB(){
+        return mChoiceB;
+    }
+
+    public int getmChoiceC(){
+        return mChoiceC;
+    }
+
+    public int getmChoiceD(){
+        return mChoiceD;
+    }
+
+    public int getmDescription(){
+        return mDescription;
+    }
+
+    public int getmAnswer(){
+        return mAnswer;
     }
 
 }
