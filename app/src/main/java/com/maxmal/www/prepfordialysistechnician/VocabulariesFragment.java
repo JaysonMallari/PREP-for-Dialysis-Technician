@@ -1,10 +1,11 @@
 package com.maxmal.www.prepfordialysistechnician;
 
 
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -275,12 +276,18 @@ public class VocabulariesFragment extends Fragment {
 
                 //get color from the current position
                 int color = ContextCompat.getColor(getContext(),word.getmColorResourceId());
-                // transfer the string data to description activity
-                Intent intent = new Intent(getActivity(),DisplayDescriptionActivity.class);
-                intent.putExtra("background",color);
-                intent.putExtra("label",label);
-                intent.putExtra("description",description);
-                ((LearnActivity)getActivity()).startActivity(intent);
+
+                AlertDialog.Builder meaningBuilder  = new AlertDialog.Builder(getActivity());
+                meaningBuilder.setMessage(description).setCancelable(false).setPositiveButton("Done", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+
+               AlertDialog alert  = meaningBuilder.create();
+                alert.setTitle(label);
+                alert.show();
 
                 // toast the meaning
                 Toast toast = Toast.makeText(getContext(),"You have selected "+ label+ " .",Toast.LENGTH_SHORT);

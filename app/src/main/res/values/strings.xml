@@ -1803,6 +1803,11 @@
     <string name="h0030_d">d. Wait until it goes away.</string>
     <string name="h0030_ans">Upon no improvement on the patients blood pressure you must notify the nurse and administer Normal Saline(NS).
    </string>
-   
+    <string name="your_score">Your Score</string>
+    <string name="_130_130">130/130</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="exit">Exit</string>
+    <string name="try_again">Try Again</string>
+
 
 </resources>

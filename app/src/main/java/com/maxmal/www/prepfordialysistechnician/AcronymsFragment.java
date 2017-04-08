@@ -1,10 +1,11 @@
 package com.maxmal.www.prepfordialysistechnician;
 
 
-import android.content.Intent;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -15,15 +16,17 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+import static com.maxmal.www.prepfordialysistechnician.R.color.a;
+
 /**
  * A simple {@link Fragment} subclass.
  */
 public class AcronymsFragment extends Fragment {
     ArrayList<Word> words  = new ArrayList<Word>(
             Arrays.asList(
-                    new Word("A",R.string.arbd,R.string.arbd_meaning,R.color.a),
-                    new Word("A",R.string.av,R.string.av_meaning,R.color.a),
-                    new Word("A",R.string.apd,R.string.apd_meaning,R.color.a),
+                    new Word("A",R.string.arbd,R.string.arbd_meaning, a),
+                    new Word("A",R.string.av,R.string.av_meaning, a),
+                    new Word("A",R.string.apd,R.string.apd_meaning, a),
                     new Word("B",R.string.bun,R.string.bun_meaning,R.color.b),
                     new Word("C",R.string.capd,R.string.capd_meaning,R.color.c),
                     new Word("C",R.string.ccpd,R.string.ccpd_meaning,R.color.c),
@@ -107,15 +110,20 @@ public class AcronymsFragment extends Fragment {
                 // convert the position label and description data to string for transfer
                 String label = getResources().getString(word.getmMainWord());
                 String description = getResources().getString(word.getmMeaningResourceId());
-
                 //get color from the current position
                 int color = ContextCompat.getColor(getContext(),word.getmColorResourceId());
-                // transfer the string data to description activity
-                Intent intent = new Intent(getActivity(),DisplayDescriptionActivity.class);
-                intent.putExtra("background",color);
-                intent.putExtra("label",label);
-                intent.putExtra("description",description);
-                ((LearnActivity)getActivity()).startActivity(intent);
+
+                AlertDialog.Builder meaningBuilder = new AlertDialog.Builder(getActivity());
+                meaningBuilder.setMessage(description).setCancelable(false).setPositiveButton("Done", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                });
+
+                AlertDialog alert = meaningBuilder.create();
+                alert.setTitle(label);
+                alert.show();
 
                 // toast the meaning
                 Toast toast = Toast.makeText(getContext(),"You have selected "+ label+ " .",Toast.LENGTH_SHORT);

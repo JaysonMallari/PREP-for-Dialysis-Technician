@@ -6,5 +6,8 @@
     <dimen name="list_item_height">88dp</dimen>
     <dimen name="padding_10">10dp</dimen>
     <dimen name="padding_3">3dp</dimen>
+    <dimen name="score_text_size">25sp</dimen>
+    <dimen name="score_digits">50sp</dimen>
+    <dimen name="min_width_custom_dialog">400dp</dimen>
 
 </resources>

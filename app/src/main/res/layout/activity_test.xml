@@ -55,13 +55,10 @@
             android:paddingLeft="@dimen/firstFrame"
             android:orientation="horizontal">
 
-            <ImageButton
-                android:id="@+id/check_answer"
+            <Button
+                android:id="@+id/check_description"
                 style="@style/answer_button" />
 
-            <TextView
-                style="@style/answer_label"
-                />
 
             <Button
                 android:id="@+id/next_button"
