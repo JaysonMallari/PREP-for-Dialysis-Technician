@@ -244,6 +244,7 @@ public class TestActivity extends AppCompatActivity {
                         public void onClick(View v) {
                             Intent intent = new Intent(TestActivity.this,TestActivity.class);
                             startActivity(intent);
+                            finish();
                         }
                     });
 
@@ -253,6 +254,7 @@ public class TestActivity extends AppCompatActivity {
                         public void onClick(View v) {
                             Intent intent = new Intent(TestActivity.this, MainActivity.class);
                             startActivity(intent);
+                            finish();
                         }
                     });
 
