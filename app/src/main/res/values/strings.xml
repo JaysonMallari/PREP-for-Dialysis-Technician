@@ -1,7 +1,7 @@
 <resources>
     <string name="learn">Let\'s Learn Dialysis</string>
     <string name="test">Test PREP</string>
-    <string name="pct">PCT Daily Task</string>
+    <string name="pct">Daily Task</string>
     <string name="app_name">PREP for Dialysis Technician</string>
     <string name="copywrite">\u00A9 2017 MaxLearnStudio</string>
 
@@ -1808,6 +1808,44 @@
     <string name="main_menu">Main Menu</string>
     <string name="exit">Exit</string>
     <string name="try_again">Try Again</string>
+    <string name="dialysis_profile">Dialysis Technician Profile</string>
+    <string name="name_manny_jordan">Name: Manny Jordan</string>
+    <string name="pct_description"> Manny Jordan is an experience Hemodialysis Technician, He will help us understand the daily task of a Hemodialysis Technician.</string>
 
-
+    <!-- pct categories list -->
+    <string name="hand_washing">Hand washing</string>
+    <string name="hand_washing_meaning"> Hand washing is the best practice of infection control, make you that you have washed your hands
+        when entering and leaving the dialysis unit, contacts with equipments and specially when working between patients.
+    </string>
+    <string name="maching_priming">Machine Priming</string>
+    <string name="maching_priming_meaning"> Machine Priming or removing the air from the bloodlines and dialyzer is very important
+        steps, air in the extracorporeal circuit can lead to clotting of dialyzer during the treatment.
+    </string>
+    <string name="phoenix">pH and Conductivity</string>
+    <string name="phoenix_meaning"> It is very important to check the pH and conductivity level of the machine before initiating the
+        Dialysis treatment, the ideal pH level is 7.0 with the acceptable value of plus(+)0.2 = 7.2 or minus(-)0.2 = 6.8. And the conductivity ideal level
+        is 14.0 with the acceptable value of plus(+)0.2 = 14.2 or minus(-)0.2 = 13.8.
+    </string>
+    <string name="ppe">Personal Protective Equipment</string>
+    <string name="ppe_meaning"> Personal Protective Equipment refers to face-shield, face-mask, medical gown, and gloves which are all designed
+    to protect us from infections.
+    </string>
+    <string name="cannulation">Iniating the Treatment</string>
+    <string name="cannulation_meaning"> Here are the steps on initiating the treament, Make sure your patient wash their access,
+        make sure the is thrill and bruit present on the access, clean it with alcohol and betadine. If it is a fistula use a tourniquet, make sure you rotate site,
+        use an approximately 20-35 degree angle of insertion, dont flip around the needle, secure the plastic wing of the needle,
+        then serile gause and bandaid on top of the isertion and secure with tape.
+    </string>
+    <string name="monitoring">Monitoring the Patient</string>
+    <string name="monitoring_meaning">Monitoring the Patient, this is very important. The machine by deafult will check the patients
+    blood pressure and heart rate every 30 minutes, but not always this will depends on patient\'s stability , Nurses and Doctors presciptions.
+    </string>
+    <string name="washback">Post Care</string>
+    <string name="washback_meaning">After the treament we will make sure that we return as much of the blood as we can to the patient
+        this is called rinseback. Then we will remove the needle one at a time. If the patient is stable give them a glove so they can hold their
+        access after you remove the needle. Remove the needle carefully, apply the gauze on top put tape to secure. When stops bleeding
+        remove the tape and the gauze. Put on a bandage and do the same steps to the second needle.
+    </string>
+    <string name="bleach">Machine Disinfectant</string>
+    <string name="bleach_meaning">Disinfect the machine, the chair, the blood pressure cuff and other using 1:100 bleach solution.</string>
 </resources>

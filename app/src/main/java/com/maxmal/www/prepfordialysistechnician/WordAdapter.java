@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -36,14 +37,30 @@ public class WordAdapter extends ArrayAdapter<Word> {
                     R.layout.list_items, parent, false);
         }
 
-        // Get the {@link AndroidFlavor} object located at this position in the list
+        // Get the {@link Word } object located at this position in the list
         Word currentWord = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name
         TextView initialTextView = (TextView) listItemView.findViewById(R.id.initial);
-        // Get the version name from the current AndroidFlavor object and
-        // set this text on the name TextView
-        initialTextView.setText(currentWord.getmInitialLetter());
+
+        //set the textview
+        if (currentWord.hasString()){
+            // set this text on the name TextView
+            initialTextView.setText(currentWord.getmInitialLetter());
+
+            // initialize the color for the list item
+            int color = ContextCompat.getColor(getContext(),currentWord.getmColorResourceId());
+
+            //set the color for the initial TextView
+            initialTextView.setTextColor(color);
+
+            //make the textview visible
+            initialTextView.setVisibility(View.VISIBLE);
+        }
+        else{
+            //make the textview gone
+            initialTextView.setVisibility(View.GONE);
+        }
 
         // Find the TextView in the list_item.xml layout with the ID version_number
         TextView mainWordTextView = (TextView) listItemView.findViewById(R.id.main_word);
@@ -51,15 +68,21 @@ public class WordAdapter extends ArrayAdapter<Word> {
         // set this text on the number TextView
         mainWordTextView.setText(currentWord.getmMainWord());
 
-        //set the theme color for the list item
-        //View themeColor = listItemView.findViewById(R.id.list_background_color);
-        //find the color that resource ID maps
-         int color = ContextCompat.getColor(getContext(),currentWord.getmColorResourceId());
-        // set background color of the list view
-       // themeColor.setBackgroundColor(color);
+        // set the imageView if given
+        ImageView pctImage = (ImageView) listItemView.findViewById(R.id.pct_image_list);
 
-        // set color to the initial textview
-        initialTextView.setTextColor(color);
+        //check if given list has image
+        if(currentWord.hasImage()){
+            //if given then set the image for pctIMage
+            pctImage.setImageResource(currentWord.getmImageResourceId());
+
+            //make sure visibility is set to visible
+            pctImage.setVisibility(View.VISIBLE);
+        }
+        else{
+            //if there's no image set the visibility to gone
+            pctImage.setVisibility(View.GONE);
+        }
 
 
         // Return the whole list item layout (containing 2 TextViews and an ImageView)

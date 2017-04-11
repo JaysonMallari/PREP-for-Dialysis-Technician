@@ -1,13 +1,14 @@
 package com.maxmal.www.prepfordialysistechnician;
 
+import static android.icu.text.Normalizer.NO;
+
 /**
  * Created by My__Boo on 4/3/2017.
  */
 
 public class Word {
 
-    /** initial letter */
-    private String mInitialLetter;
+
 
     /** main word */
     private int mMainWord;
@@ -15,7 +16,29 @@ public class Word {
     /** meaning resource id */
     private int mMeaningResourceId;
 
-    private int mColorResourceId;
+
+    /** initialize the value for no image */
+    private static final int NO_IMAGE_PROVIDED = -1;
+
+    /** Image resource ID for the word*/
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    /** initialize the value for no text*/
+    private static  final String NO_STRING_PROVIDED = "";
+
+    /** initial letter initialize with empty string*/
+    private String mInitialLetter = NO_STRING_PROVIDED;
+
+    /** color resourceID*/
+    private int mColorResourceId ;
+
+
+    /** constructor for pct activity */
+    public Word(int imageResourceId, int mainWord, int meaningResourceId){
+        mImageResourceId = imageResourceId;
+        mMainWord = mainWord;
+        mMeaningResourceId = meaningResourceId;
+    }
 
 
 
@@ -26,6 +49,13 @@ public class Word {
         mMeaningResourceId = meaningResourceId;
         mColorResourceId = colorResourceId;
     }
+
+    /**
+     * get the imgaeResource id
+     */
+     public int getmImageResourceId(){
+         return mImageResourceId;
+     }
 
     /**
      * get the inital letter
@@ -103,6 +133,14 @@ public class Word {
 
     public int getmAnswer(){
         return mAnswer;
+    }
+
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    public boolean hasString(){
+        return mInitialLetter != NO_STRING_PROVIDED;
     }
 
 }
