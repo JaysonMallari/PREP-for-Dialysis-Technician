@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="400dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorPrimaryfaded">
+
+        <ImageView
+            android:id="@+id/pct_popup_title_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hand_wash"
+            android:padding="@dimen/padding_10"/>
+
+        <TextView
+            android:id="@+id/pct_popup_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textAppearance="?android:textAppearanceMediumInverse"
+            android:textStyle="bold"
+            android:text="@string/hand_washing"
+            android:paddingLeft="@dimen/padding_16"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pct_popup_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:text="@string/hand_washing_meaning"
+        android:padding="@dimen/padding_10"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/padding_10"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/pct_close_popup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:textAppearance="?android:textAppearanceMedium"/>
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/manny_jordan_pct"
+            />
+
+            <Button
+                android:id="@+id/youtube"
+                style="@style/youtube"
+                />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>

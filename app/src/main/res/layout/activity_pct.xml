@@ -61,7 +61,7 @@
                         android:layout_height="0dp"
                         android:layout_weight="1"
                         android:gravity="top"
-                        android:text="Schedule: 5:00am - 7:00pm"
+                        android:text="@string/hemodialysis_technician"
                         android:textAppearance="?android:textAppearance"
                         android:textColor="@color/text_color_666"/>
                 </LinearLayout>
@@ -91,7 +91,8 @@
                 android:background="@android:color/white"
                 android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/padding_10"/>
 
 
 

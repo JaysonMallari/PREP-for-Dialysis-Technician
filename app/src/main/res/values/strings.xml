@@ -1814,7 +1814,7 @@
 
     <!-- pct categories list -->
     <string name="hand_washing">Hand washing</string>
-    <string name="hand_washing_meaning"> Hand washing is the best practice of infection control, make you that you have washed your hands
+    <string name="hand_washing_meaning"> Hand washing is the best practice of infection control, make sure that you have washed your hands
         when entering and leaving the dialysis unit, contacts with equipments and specially when working between patients.
     </string>
     <string name="maching_priming">Machine Priming</string>
@@ -1826,26 +1826,37 @@
         Dialysis treatment, the ideal pH level is 7.0 with the acceptable value of plus(+)0.2 = 7.2 or minus(-)0.2 = 6.8. And the conductivity ideal level
         is 14.0 with the acceptable value of plus(+)0.2 = 14.2 or minus(-)0.2 = 13.8.
     </string>
-    <string name="ppe">Personal Protective Equipment</string>
+    <string name="ppe">PPE</string>
     <string name="ppe_meaning"> Personal Protective Equipment refers to face-shield, face-mask, medical gown, and gloves which are all designed
     to protect us from infections.
     </string>
-    <string name="cannulation">Iniating the Treatment</string>
-    <string name="cannulation_meaning"> Here are the steps on initiating the treament, Make sure your patient wash their access,
-        make sure the is thrill and bruit present on the access, clean it with alcohol and betadine. If it is a fistula use a tourniquet, make sure you rotate site,
-        use an approximately 20-35 degree angle of insertion, dont flip around the needle, secure the plastic wing of the needle,
-        then serile gause and bandaid on top of the isertion and secure with tape.
+    <string name="cannulation">Initiating the Treatment</string>
+    <string name="cannulation_meaning"> Here are the steps on initiating the treatment, Make sure your patient wash their access,
+        make sure that the thrill and bruit present on the access, clean the access with alcohol and betadine. If it is a fistula, use a tourniquet.
+        Make sure you rotate site, use an approximately 20-35 degree angle of insertion. Dont flip around the needle, secure the plastic wing of the needle.
+        Then place the sterile gauze and bandage on top of the insertion and secure with tape.
     </string>
     <string name="monitoring">Monitoring the Patient</string>
     <string name="monitoring_meaning">Monitoring the Patient, this is very important. The machine by deafult will check the patients
-    blood pressure and heart rate every 30 minutes, but not always this will depends on patient\'s stability , Nurses and Doctors presciptions.
+    blood pressure and heart rate every 30 minutes, but not always this will depends on patient\'s stability , Nurses and Doctors prescriptions.
     </string>
     <string name="washback">Post Care</string>
-    <string name="washback_meaning">After the treament we will make sure that we return as much of the blood as we can to the patient
-        this is called rinseback. Then we will remove the needle one at a time. If the patient is stable give them a glove so they can hold their
+    <string name="washback_meaning">After the treament, we have to make sure that we return as much of the blood as we can to the patient.
+        Then we will remove the needle one at a time. If the patient is stable give them a glove so they can hold their
         access after you remove the needle. Remove the needle carefully, apply the gauze on top put tape to secure. When stops bleeding
-        remove the tape and the gauze. Put on a bandage and do the same steps to the second needle.
+        remove the tape and the gauze. Put on the bandages and do the same steps to the second needle access.
     </string>
     <string name="bleach">Machine Disinfectant</string>
     <string name="bleach_meaning">Disinfect the machine, the chair, the blood pressure cuff and other using 1:100 bleach solution.</string>
+    <string name="hemodialysis_technician">Hemodialysis Technician</string>
+
+    <!-- YOUTUBE ID-->
+    <string name="hand_wash_youtube">KusIuq8wu_0</string>
+    <string name="priming_youtube">bictL9jijjk</string>
+    <string name="phoenix_youtube">Kr1-bR2pfCU</string>
+    <string name="ppe_youtube">m9HoLrvVNvk</string>
+    <string name="needle_youtube">tK25Ebn3mHw</string>
+    <string name="monitoring_youtube">ACvEQdg2Q2Y</string>
+    <string name="rinseback_youtube">Rfvegx6tzQ0</string>
+    <string name="bleach_youtube">_0zhY0JMGCA</string>
 </resources>

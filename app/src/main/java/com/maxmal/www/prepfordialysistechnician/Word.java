@@ -1,6 +1,7 @@
 package com.maxmal.www.prepfordialysistechnician;
 
 import static android.icu.text.Normalizer.NO;
+import static com.maxmal.www.prepfordialysistechnician.R.color.m;
 
 /**
  * Created by My__Boo on 4/3/2017.
@@ -32,12 +33,16 @@ public class Word {
     /** color resourceID*/
     private int mColorResourceId ;
 
+    /** youtube id */
+    private int mYoutubeId;
+
 
     /** constructor for pct activity */
-    public Word(int imageResourceId, int mainWord, int meaningResourceId){
+    public Word(int imageResourceId, int mainWord, int meaningResourceId, int youtubeId){
         mImageResourceId = imageResourceId;
         mMainWord = mainWord;
         mMeaningResourceId = meaningResourceId;
+        mYoutubeId =  youtubeId;
     }
 
 
@@ -48,6 +53,13 @@ public class Word {
         mMainWord = mainWord;
         mMeaningResourceId = meaningResourceId;
         mColorResourceId = colorResourceId;
+    }
+
+    /**
+     * get youtube resource id
+     */
+    public  int getmYoutubeId(){
+        return mYoutubeId;
     }
 
     /**
