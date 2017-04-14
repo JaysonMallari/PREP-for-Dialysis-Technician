@@ -59,7 +59,9 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="Close"
-            android:textAppearance="?android:textAppearanceMedium"/>
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@android:color/white"
+            />
 
 
         <ImageView
@@ -71,6 +73,7 @@
             <Button
                 android:id="@+id/youtube"
                 style="@style/youtube"
+                android:textColor="@android:color/white"
                 />
 
 

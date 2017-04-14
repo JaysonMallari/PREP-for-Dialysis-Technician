@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -232,8 +233,9 @@ public class TestActivity extends AppCompatActivity {
                 }
                 else{
                     final Dialog dialog = new Dialog(TestActivity.this);
+                    //remove title
+                    dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                     dialog.setContentView(R.layout.test_score);
-                    dialog.setTitle("Test PREP Result");
 
                     TextView score = (TextView) dialog.findViewById(R.id.score_digits);
                     score.setText(String.valueOf(totalScore)+"/130");

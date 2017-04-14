@@ -8,7 +8,7 @@
     <dimen name="padding_3">3dp</dimen>
     <dimen name="score_text_size">25sp</dimen>
     <dimen name="score_digits">50sp</dimen>
-    <dimen name="min_width_custom_dialog">400dp</dimen>
+    <dimen name="min_width_custom_dialog">320dp</dimen>
     <dimen name="padding_5dp">5dp</dimen>
     <dimen name="padding_16">16dp</dimen>
     <dimen name="padding_24">24dp</dimen>

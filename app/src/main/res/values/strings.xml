@@ -778,7 +778,7 @@
     <string name="thirteen_ans">As a professional Dialysis technician discussing patients informations to another patient is inappropriate and unprofessional.</string>
 
     <!-- test -->
-    <string name="fourteen">14. When working with patients in a professional medical settings, What sort ofbounderies should be follow as a Dialysis Technician?</string>
+    <string name="fourteen">14. When working with patients in a professional medical settings, What sort of bounderies should be follow as a Dialysis Technician?</string>
     <string name="fourteen_a">a. You should invite the patient to your place and offer food after the treatment.</string>
     <string name="fourteen_b">b. You should not talk about your personal problem with your patient.</string><!-- answer -->
     <string name="fourteen_c">c. You can take gifts from the patient\'s only if there is appropriate occassion.</string>
@@ -789,7 +789,7 @@
     <string name="fifteen">15. Elsa a lady Dialysis technician was asked by Mr O\'neal a patient to have a dinner with him at his place alone after her shift. What should Elsa do?</string>
     <string name="fifteen_a">a. Inform the Social Worker.</string><!-- answer -->
     <string name="fifteen_b">b. Notify the Nurse.</string>
-    <string name="fifteen_c">c. She shouldnt upset the patient and go with him on a dinner.</string>
+    <string name="fifteen_c">c. She shouldn\'t upset the patient and go with him on a dinner.</string>
     <string name="fifteen_d">d. Inform all the staff members in case something bad happens.</string>
     <string name="fifteen_ans">The correct answer is A, any inappropriate act or behavior should be notify to the Social Worker, and the social worker should educate the patients on proper manner and act as a dialysis patient.</string>
 
@@ -842,7 +842,7 @@
     <string name="twenty1_ans">Erythropoietin control the red blood cell production. Not enough production can cause anemia.</string>
 
          <!-- test -->
-    <string name="twenty2">22. What is Nephron made uo of? </string>
+    <string name="twenty2">22. What is Nephron made of? </string>
     <string name="twenty2_a">a. Calyx and Cortex</string>
     <string name="twenty2_b">b. Medulla and Ureter</string>
     <string name="twenty2_c">c. Tubule and glomerulus</string><!-- answer -->
@@ -916,7 +916,7 @@
      <!-- test -->
     <string name="thirty1">31. As a Dialysis Technician health care provider, What is your role in anemia management?</string>
     <string name="thirty1_a">a. Advise patient to sleep early</string>
-    <string name="thirty1_b">b. Return as mush of the patient blood as you can at the end of each treatment.</string><!-- answer -->
+    <string name="thirty1_b">b. Return as much of the patient blood as you can at the end of each treatment.</string><!-- answer -->
     <string name="thirty1_c">c. Advise patient to eat more</string>
     <string name="thirty1_d">d. Advise patient to drink more water.</string>
     <string name="thirty1_ans">At the end of the treatment make sure you return as mush blood as you can to the patient.</string>
@@ -1081,7 +1081,7 @@
     <string name="fifty_b">b. Fluid in the cell </string>
     <string name="fifty_c">c. Blood inside the blood vessels. </string><!-- answer -->
     <string name="fifty_d">d. Vanish</string>
-    <string name="fifty_ans">Dialysate is a mix ture of sodium, potassium, calcium, bicarbonate,  magnesium, chloride, glucose which are electrolytes.
+    <string name="fifty_ans">Blood inside the blood vessels.
    </string>
    
     <!-- test -->
@@ -1179,7 +1179,7 @@
     <string name="sixty1_a">a. Dialysate gets too hot.</string>
     <string name="sixty1_b">b. Total number of solution per liter.</string>
     <string name="sixty1_c">c. Dialysate gets too cold. </string>
-    <string name="sixty1_d">d. Total elctric charge of a solution.</string><!-- answer -->
+    <string name="sixty1_d">d. Total electric charge of a solution.</string><!-- answer -->
     <string name="sixty1_ans">Dialysate Conductivity is the total elctric charge of a solution.
    </string>
    
@@ -1467,7 +1467,7 @@
 	<string name="ninety3_a">a. Follow the Physician prescribe blood flow.</string>
     <string name="ninety3_b">b. Use multiple saline bag\'s to prime the lines.</string>
     <string name="ninety3_c">c. Follow the Nurse prescribe blood flow.</string>
-    <string name="ninety3_d">d. Makes sure all the connection are sucured and tight.</string><!-- answer -->
+    <string name="ninety3_d">d. Makes sure all the connection are secured and tight.</string><!-- answer -->
     <string name="ninety3_ans">Making sure that all the connection are sucured and tight will prevent the air inside our bloodlines.
    </string>
    
@@ -1572,9 +1572,9 @@
    </string>
    
     <!-- test -->
-    <string name="h005">105. Why is the water that is use for dialysate has to be trated?</string>
+    <string name="h005">105. Why is the water that is use for dialysate has to be treated?</string>
 	<string name="h005_a">a. Because the patients  are exposed to large amount of water during the Dialysis treatment.</string><!-- answer -->
-    <string name="h005_b">b. Because the patients are only allow to dring treated water.</string>
+    <string name="h005_b">b. Because the patients are only allow to drink treated water.</string>
     <string name="h005_c">c. Because the patients are able to excrete contaminants in dialysate </string>
     <string name="h005_d">d. None of the above</string>
     <string name="h005_ans">During the Dialysis Treament each patient\'s are exposed to large amount of water.
@@ -1810,41 +1810,41 @@
     <string name="try_again">Try Again</string>
     <string name="dialysis_profile">Dialysis Technician Profile</string>
     <string name="name_manny_jordan">Name: Manny Jordan</string>
-    <string name="pct_description"> Manny Jordan is an experience Hemodialysis Technician, He will help us understand the daily task of a Hemodialysis Technician.</string>
+    <string name="pct_description"> Manny Jordan is an experienced Hemodialysis Technician, He will help us understand the daily task of a Hemodialysis Technician.</string>
 
     <!-- pct categories list -->
     <string name="hand_washing">Hand washing</string>
-    <string name="hand_washing_meaning"> Hand washing is the best practice of infection control, make sure that you have washed your hands
-        when entering and leaving the dialysis unit, contacts with equipments and specially when working between patients.
+    <string name="hand_washing_meaning"> Hand washing is the best practice of infection control. Make sure that you have washed your hands
+        when entering and leaving the dialysis unit, when you had contact with equipment and especially when working between patients.
     </string>
     <string name="maching_priming">Machine Priming</string>
     <string name="maching_priming_meaning"> Machine Priming or removing the air from the bloodlines and dialyzer is very important
-        steps, air in the extracorporeal circuit can lead to clotting of dialyzer during the treatment.
+        steps. Air in the extracorporeal circuit can lead to clotting of dialyzer during the treatment.
     </string>
     <string name="phoenix">pH and Conductivity</string>
     <string name="phoenix_meaning"> It is very important to check the pH and conductivity level of the machine before initiating the
-        Dialysis treatment, the ideal pH level is 7.0 with the acceptable value of plus(+)0.2 = 7.2 or minus(-)0.2 = 6.8. And the conductivity ideal level
+        Dialysis treatment. The ideal pH level is 7.0 with the acceptable value of plus(+)0.2 = 7.2 or minus(-)0.2 = 6.8. The conductivity ideal level
         is 14.0 with the acceptable value of plus(+)0.2 = 14.2 or minus(-)0.2 = 13.8.
     </string>
     <string name="ppe">PPE</string>
-    <string name="ppe_meaning"> Personal Protective Equipment refers to face-shield, face-mask, medical gown, and gloves which are all designed
+    <string name="ppe_meaning"> Personal Protective Equipment refers to face-shield, face-mask, medical gown, and gloves, which are all designed
     to protect us from infections.
     </string>
     <string name="cannulation">Initiating the Treatment</string>
-    <string name="cannulation_meaning"> Here are the steps on initiating the treatment, Make sure your patient wash their access,
+    <string name="cannulation_meaning"> Here are the steps on initiating the treatment: Make sure your patient wash their access,
         make sure that the thrill and bruit present on the access, clean the access with alcohol and betadine. If it is a fistula, use a tourniquet.
-        Make sure you rotate site, use an approximately 20-35 degree angle of insertion. Dont flip around the needle, secure the plastic wing of the needle.
+        Make sure you rotate site, use an approximately 20-35 degree angle of insertion. Don\'t flip around the needle, secure the plastic wing of the needle.
         Then place the sterile gauze and bandage on top of the insertion and secure with tape.
     </string>
     <string name="monitoring">Monitoring the Patient</string>
-    <string name="monitoring_meaning">Monitoring the Patient, this is very important. The machine by deafult will check the patients
-    blood pressure and heart rate every 30 minutes, but not always this will depends on patient\'s stability , Nurses and Doctors prescriptions.
+    <string name="monitoring_meaning">Monitoring the Patient: this is very important. The machine by deafult will check the patient\'s
+    blood pressure and heart rate every 30 minutes. However,  this may vary depending on patient\'s stability, nurses and doctors prescriptions.
     </string>
     <string name="washback">Post Care</string>
-    <string name="washback_meaning">After the treament, we have to make sure that we return as much of the blood as we can to the patient.
+    <string name="washback_meaning">After the treatment, we have to make sure that we return as much of the blood as we can to the patient.
         Then we will remove the needle one at a time. If the patient is stable give them a glove so they can hold their
-        access after you remove the needle. Remove the needle carefully, apply the gauze on top put tape to secure. When stops bleeding
-        remove the tape and the gauze. Put on the bandages and do the same steps to the second needle access.
+        access after you remove the needle. Remove the needle carefully, then apply the gauze on top and put tape then secure it. When bleeding
+        stops, remove the tape and the gauze. Put on the bandages and do the same steps to the second needle access.
     </string>
     <string name="bleach">Machine Disinfectant</string>
     <string name="bleach_meaning">Disinfect the machine, the chair, the blood pressure cuff and other using 1:100 bleach solution.</string>
