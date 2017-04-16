@@ -1859,4 +1859,39 @@
     <string name="monitoring_youtube">ACvEQdg2Q2Y</string>
     <string name="rinseback_youtube">Rfvegx6tzQ0</string>
     <string name="bleach_youtube">_0zhY0JMGCA</string>
+
+
+    <!--  ads ID's  -->
+    <string name="ad_id_interstitial">ca-app-pub-6335622053027001/4726750378</string>
+    <string name="app_id_interstitial">ca-app-pub-6335622053027001~3250017176</string>
+
+    <!-- Main Activity -->
+    <string name="ad_id_banner">ca-app-pub-6335622053027001/1494082379</string>
+    <string name="app_id_banner">ca-app-pub-6335622053027001~3250017176</string>
+
+    <!-- Learn Activity -->
+    <string name="ad_id_banner_learn">ca-app-pub-6335622053027001/8480795577</string>
+    <string name="ad_id_interstitial_learn">ca-app-pub-6335622053027001/9957528773</string>
+
+
+    <!-- Learn Activity POPUP -->
+    <string name="ad_id_banner_learn_popup">ca-app-pub-6335622053027001/9538726378</string>
+    <string name="ad_id_interstitial_learn_popup">ca-app-pub-6335622053027001/8341194770</string>
+
+    <!-- Test Activity POPUP -->
+    <string name="ad_id_banner_test">ca-app-pub-6335622053027001/9119923971</string>
+    <string name="ad_id_interstitial_test">ca-app-pub-6335622053027001/1596657178</string>
+
+    <!-- PCT Activity POPUP -->
+    <string name="ad_id_banner_pct">ca-app-pub-6335622053027001/1177854776</string>
+    <string name="ad_id_interstitial_pct">ca-app-pub-6335622053027001/2654587970</string>
+
+
+    <!-- PCT Activity POPUP -->
+    <string name="ad_id_banner_pct_popup">ca-app-pub-6335622053027001/8561520770</string>
+
+
+
+
+
 </resources>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.maxmal.www.prepfordialysistechnician">
+    package="com.maxmal.www.freeprepfordialysistechnician">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
     <application
         android:allowBackup="true"
@@ -23,7 +26,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".TestActivity"
@@ -32,7 +35,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
         <activity
             android:name=".PctActivity"
@@ -41,7 +44,7 @@
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.maxmal.www.prepfordialysistechnician.MainActivity" />
+                android:value=".MainActivity" />
         </activity>
     </application>
 
