@@ -13,8 +13,6 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
 
@@ -102,8 +100,9 @@ public class ConvertionsFragment extends Fragment {
 
                 AlertDialog alert = builder.create();
                 alert.setTitle(label);
-                //interstitial
-                interstitial(alert);
+
+                //start next activity
+                alert.show();
 
                 // toast the meaning
                 Toast toast = Toast.makeText(getContext(),"You have selected "+ label+ " .",Toast.LENGTH_SHORT);
@@ -112,44 +111,5 @@ public class ConvertionsFragment extends Fragment {
         });
 
     }
-
-    public void interstitial(final AlertDialog alert ){
-        mInterstitialAd = new InterstitialAd(getActivity());
-        mInterstitialAd.setAdUnitId(getString(R.string.ad_id_interstitial_learn_popup));
-        requestNewInterstitial();
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                showInterstitial(alert);
-            }
-        });
-    }
-
-    private void requestNewInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-
-        mInterstitialAd.loadAd(adRequest);
-    }
-
-
-    private void showInterstitial(final AlertDialog alert) {
-        // Show the ad if it's ready. Otherwise toast and restart the game.
-        if(mInterstitialAd.isLoaded()){
-            mInterstitialAd.show();
-        }
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                //start next activity
-                alert.show();
-            }
-        });
-    }
-
-
 
 }

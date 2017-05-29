@@ -18,7 +18,6 @@ import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
@@ -136,55 +135,19 @@ public class PctActivity extends AppCompatActivity {
                 });
 
 
-                //interstitial
-                interstitial(dialog);
-
-
-            }
-
-        });
-
-
-
-    }
-
-    public void interstitial(final Dialog dialog){
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.ad_id_interstitial_test));
-        requestNewInterstitial();
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                showInterstitial(dialog);
-            }
-        });
-    }
-
-    private void requestNewInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-
-        mInterstitialAd.loadAd(adRequest);
-    }
-
-
-    private void showInterstitial(final Dialog dialog) {
-        // Show the ad if it's ready. Otherwise toast and restart the game.
-        if(mInterstitialAd.isLoaded()){
-            mInterstitialAd.show();
-        }
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
                 //start next activity
                 //show the custom dialog
                 dialog.show();
+
+
             }
+
         });
+
+
+
     }
+
 
     public void banner(){
         AdView banner = (AdView) findViewById(R.id.banner_adview_pct);

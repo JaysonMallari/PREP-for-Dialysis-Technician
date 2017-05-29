@@ -13,7 +13,6 @@ import android.widget.RadioButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
@@ -252,8 +251,8 @@ public class TestActivity extends AppCompatActivity {
 
                 if(position < (testString.size() - 1)){
                     position += 1;
-                    //interstitial
-                    interstitial();
+                    //start next activity
+                    setQuestionAndChoices();
 
                 }
                 else{
@@ -292,42 +291,6 @@ public class TestActivity extends AppCompatActivity {
 
     }
 
-    public void interstitial(){
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId(getString(R.string.ad_id_interstitial_test));
-        requestNewInterstitial();
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdLoaded() {
-                showInterstitial();
-            }
-        });
-    }
-
-    private void requestNewInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build();
-
-        mInterstitialAd.loadAd(adRequest);
-    }
-
-
-    private void showInterstitial() {
-        // Show the ad if it's ready. Otherwise toast and restart the game.
-        if(mInterstitialAd.isLoaded()){
-            mInterstitialAd.show();
-        }
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                //start next activity
-                setQuestionAndChoices();
-            }
-        });
-    }
 
 
     public void setQuestionAndChoices(){

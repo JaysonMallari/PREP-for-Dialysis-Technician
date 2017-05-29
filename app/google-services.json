@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "873842985883",
+    "firebase_url": "https://dialysis-prep.firebaseio.com",
+    "project_id": "dialysis-prep",
+    "storage_bucket": "dialysis-prep.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873842985883:android:8ff05d39888ca92e",
+        "android_client_info": {
+          "package_name": "com.maxmal.www.freeprepfordialysistechnician"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873842985883-21tcadptpg4p98fn7imtrsrft24m62hl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBxWedr2SFFE44QvWVrExOv4i5y0zME70"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

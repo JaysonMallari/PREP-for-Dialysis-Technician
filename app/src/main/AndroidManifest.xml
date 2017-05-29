@@ -19,32 +19,35 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity01">
+        </activity>
         <activity
             android:name=".LearnActivity"
             android:configChanges="screenSize|orientation|screenLayout"
             android:label="@string/learn"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity01">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".MainActivity01" />
         </activity>
         <activity
             android:name=".TestActivity"
             android:configChanges="screenSize|orientation|screenLayout"
             android:label="@string/test"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity01">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".MainActivity01" />
         </activity>
         <activity
             android:name=".PctActivity"
             android:configChanges="screenSize|orientation|screenLayout"
             android:label="@string/pct"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity01">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".MainActivity01" />
         </activity>
     </application>
 

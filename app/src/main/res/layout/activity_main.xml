@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gradient_dark"
-    tools:context="com.maxmal.www.freeprepfordialysistechnician.MainActivity">
+    tools:context="com.maxmal.www.freeprepfordialysistechnician.MainActivity01">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -39,7 +39,7 @@
             android:id="@+id/no_ads"
             style="@style/welcomButtons"
             android:text="Remove Ads"
-            android:drawableLeft="@mipmap/dialysis_app_icon"
+            android:drawableLeft="@mipmap/dialysis_app_icon2"
             />
 
         <Button
